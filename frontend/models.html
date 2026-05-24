@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Model Comparison — Compliance Policy AI</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --surface-hover: #22263a;
+      --border: #2a2e3f;
+      --text: #e4e6ed;
+      --text-muted: #8b8fa3;
+      --primary: #6c63ff;
+      --accent-green: #34d399;
+      --accent-yellow: #fbbf24;
+      --accent-red: #f87171;
+      --accent-blue: #60a5fa;
+      --accent-purple: #a78bfa;
+      --radius: 12px;
+      --radius-sm: 8px;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+      padding: 24px;
+    }
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 32px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .header h1 {
+      font-size: 1.5rem;
+      background: linear-gradient(135deg, var(--primary), var(--accent-purple));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .nav-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.85rem;
+      color: var(--primary);
+      padding: 6px 14px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      transition: background 0.2s;
+    }
+    .nav-link:hover { background: var(--surface); text-decoration: none; }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      margin-bottom: 32px;
+    }
+
+    /* Comparison Table */
+    .compare-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 40px;
+      font-size: 0.85rem;
+    }
+    .compare-table th {
+      text-align: left;
+      padding: 14px 16px;
+      border-bottom: 2px solid var(--border);
+      color: var(--text-muted);
+      font-weight: 600;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      position: sticky;
+      top: 0;
+      background: var(--bg);
+    }
+    .compare-table td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+    .compare-table tr:hover td { background: var(--surface-hover); }
+    .compare-table .row-label {
+      color: var(--text-muted);
+      font-weight: 600;
+      width: 180px;
+      white-space: nowrap;
+    }
+    .compare-table .model-col { min-width: 220px; }
+
+    .badge {
+      display: inline-block;
+      font-size: 0.65rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 2px 8px;
+      border-radius: 20px;
+      letter-spacing: 0.3px;
+    }
+    .badge-premium { background: rgba(167, 139, 250, 0.15); color: var(--accent-purple); }
+    .badge-primary { background: rgba(108, 99, 255, 0.15); color: var(--primary); }
+    .badge-fallback { background: rgba(251, 191, 36, 0.15); color: var(--accent-yellow); }
+    .badge-active { background: rgba(52, 211, 153, 0.15); color: var(--accent-green); }
+
+    .model-name {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .model-desc {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .check { color: var(--accent-green); }
+    .cross { color: var(--accent-red); }
+    .warn { color: var(--accent-yellow); }
+
+    .rating-bar {
+      display: flex;
+      gap: 3px;
+      align-items: center;
+    }
+    .rating-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--border);
+    }
+    .rating-dot.filled { background: var(--primary); }
+    .rating-dot.filled.premium { background: var(--accent-purple); }
+    .rating-dot.filled.green { background: var(--accent-green); }
+
+    /* Sections */
+    .section { margin-bottom: 40px; }
+    .section h2 {
+      font-size: 1.1rem;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* Info cards */
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 16px;
+    }
+    .info-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+    }
+    .info-card h3 {
+      font-size: 0.9rem;
+      margin-bottom: 10px;
+      color: var(--accent-blue);
+    }
+    .info-card p, .info-card ul {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+    }
+    .info-card ul { padding-left: 16px; }
+    .info-card li { margin-bottom: 4px; }
+
+    /* Live status */
+    .live-status {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px 20px;
+      margin-bottom: 32px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .live-status .status-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.85rem;
+    }
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+    .status-dot.on { background: var(--accent-green); }
+
+    @media (max-width: 700px) {
+      body { padding: 12px; }
+      .compare-table { display: block; overflow-x: auto; }
+      .info-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Model Comparison</h1>
+    <div class="header-right">
+      <a href="about.html" class="nav-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+        About
+      </a>
+      <a href="dashboard.html" class="nav-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M18 17V9"/><path d="M13 17V5"/><path d="M8 17v-3"/></svg>
+        Usage Dashboard
+      </a>
+      <a href="index.html" class="nav-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+        Back to Chat
+      </a>
+    </div>
+  </div>
+
+  <p class="subtitle">All three models are available on the Gemini free tier. The system uses them in priority order — best model first, then falls back automatically when quota is exhausted.</p>
+
+  <!-- Live Status Banner -->
+  <div class="live-status" id="liveStatus">
+    <div class="status-item">
+      <div class="status-dot on"></div>
+      <span>Active: <strong id="activeModel">--</strong></span>
+    </div>
+    <div class="status-item">
+      <span>Requests today: <strong id="reqsToday">0</strong></span>
+    </div>
+    <div class="status-item">
+      <span>Resets in: <strong id="resetsIn">--</strong></span>
+    </div>
+  </div>
+
+  <!-- Comparison Table -->
+  <div class="section">
+    <h2>Side-by-Side Comparison</h2>
+    <table class="compare-table">
+      <thead>
+        <tr>
+          <th></th>
+          <th class="model-col">
+            <div class="model-name">Gemini 2.5 Pro</div>
+            <span class="badge badge-premium">Premium</span>
+          </th>
+          <th class="model-col">
+            <div class="model-name">Gemini 2.5 Flash</div>
+            <span class="badge badge-primary">Primary</span>
+          </th>
+          <th class="model-col">
+            <div class="model-name">Gemini 2.5 Flash-Lite</div>
+            <span class="badge badge-fallback">Fallback</span>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="row-label">Fallback Priority</td>
+          <td><strong>1st</strong> — used first</td>
+          <td><strong>2nd</strong> — after Pro exhausted</td>
+          <td><strong>3rd</strong> — last resort</td>
+        </tr>
+        <tr>
+          <td class="row-label">Best For</td>
+          <td>Complex regulatory analysis, nuanced interpretation, multi-step reasoning</td>
+          <td>General compliance Q&A, balanced speed &amp; quality</td>
+          <td>Simple lookups, high-volume queries, quick answers</td>
+        </tr>
+        <tr>
+          <td class="row-label">Reasoning Quality</td>
+          <td>
+            <div class="rating-bar">
+              <div class="rating-dot filled premium"></div>
+              <div class="rating-dot filled premium"></div>
+              <div class="rating-dot filled premium"></div>
+              <div class="rating-dot filled premium"></div>
+              <div class="rating-dot filled premium"></div>
+              <span style="margin-left:6px;font-size:0.8rem">Excellent</span>
+            </div>
+          </td>
+          <td>
+            <div class="rating-bar">
+              <div class="rating-dot filled"></div>
+              <div class="rating-dot filled"></div>
+              <div class="rating-dot filled"></div>
+              <div class="rating-dot filled"></div>
+              <div class="rating-dot"></div>
+              <span style="margin-left:6px;font-size:0.8rem">Very Good</span>
+            </div>
+          </td>
+          <td>
+            <div class="rating-bar">
+              <div class="rating-dot filled green"></div>
+              <div class="rating-dot filled green"></div>
+              <div class="rating-dot filled green"></div>
+              <div class="rating-dot"></div>
+              <div class="rating-dot"></div>
+              <span style="margin-left:6px;font-size:0.8rem">Good</span>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="row-label">Speed</td>
+          <td>
+            <div class="rating-bar">
+              <div class="rating-dot filled premium"></div>
+              <div class="rating-dot filled premium"></div>
+              <div class="rating-dot filled premium"></div>
+              <div class="rating-dot"></div>
+              <div class="rating-dot"></div>
+              <span style="margin-left:6px;font-size:0.8rem">Moderate</span>
+            </div>
+          </td>
+          <td>
+            <div class="rating-bar">
+              <div class="rating-dot filled"></div>
+              <div class="rating-dot filled"></div>
+              <div class="rating-dot filled"></div>
+              <div class="rating-dot filled"></div>
+              <div class="rating-dot"></div>
+              <span style="margin-left:6px;font-size:0.8rem">Fast</span>
+            </div>
+          </td>
+          <td>
+            <div class="rating-bar">
+              <div class="rating-dot filled green"></div>
+              <div class="rating-dot filled green"></div>
+              <div class="rating-dot filled green"></div>
+              <div class="rating-dot filled green"></div>
+              <div class="rating-dot filled green"></div>
+              <span style="margin-left:6px;font-size:0.8rem">Fastest</span>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="row-label">Context Window</td>
+          <td>1,048,576 tokens</td>
+          <td>1,048,576 tokens</td>
+          <td>1,048,576 tokens</td>
+        </tr>
+        <tr>
+          <td class="row-label">Max Output / Response</td>
+          <td>65,536 tokens</td>
+          <td>65,536 tokens</td>
+          <td>65,536 tokens</td>
+        </tr>
+        <tr style="background: var(--surface)">
+          <td class="row-label" colspan="4" style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.5px;color:var(--accent-blue)">Free Tier Limits</td>
+        </tr>
+        <tr>
+          <td class="row-label">Requests / Day (RPD)</td>
+          <td><strong>25</strong></td>
+          <td><strong>1,500</strong></td>
+          <td><strong>3,000</strong></td>
+        </tr>
+        <tr>
+          <td class="row-label">Requests / Minute (RPM)</td>
+          <td>5</td>
+          <td>15</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td class="row-label">Input Tokens / Min (TPM)</td>
+          <td>250,000</td>
+          <td>1,000,000</td>
+          <td>1,000,000</td>
+        </tr>
+        <tr>
+          <td class="row-label">Input Tokens / Day (TPD)</td>
+          <td>1,000,000</td>
+          <td>1,500,000</td>
+          <td>1,500,000</td>
+        </tr>
+        <tr>
+          <td class="row-label">Output Token Limit</td>
+          <td>No daily cap (per-response max 65K)</td>
+          <td>No daily cap (per-response max 65K)</td>
+          <td>No daily cap (per-response max 65K)</td>
+        </tr>
+        <tr style="background: var(--surface)">
+          <td class="row-label" colspan="4" style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.5px;color:var(--accent-blue)">Paid Tier (Pay-as-you-go)</td>
+        </tr>
+        <tr>
+          <td class="row-label">Input Price</td>
+          <td>$1.25 / 1M tokens</td>
+          <td>$0.15 / 1M tokens</td>
+          <td>$0.075 / 1M tokens</td>
+        </tr>
+        <tr>
+          <td class="row-label">Output Price</td>
+          <td>$10.00 / 1M tokens</td>
+          <td>$0.60 / 1M tokens</td>
+          <td>$0.30 / 1M tokens</td>
+        </tr>
+        <tr>
+          <td class="row-label">Paid RPM</td>
+          <td>1,000</td>
+          <td>2,000</td>
+          <td>4,000</td>
+        </tr>
+        <tr>
+          <td class="row-label">Paid RPD</td>
+          <td>Unlimited</td>
+          <td>Unlimited</td>
+          <td>Unlimited</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- How it works -->
+  <div class="section">
+    <h2>How the Fallback System Works</h2>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>1. Priority Order</h3>
+        <p>Every question first tries <strong>Gemini 2.5 Pro</strong> (best quality, 25 requests/day). When those 25 are used up, it automatically switches to <strong>Gemini 2.5 Flash</strong> (1,500/day). If that's exhausted too, it falls back to <strong>Flash-Lite</strong> (3,000/day).</p>
+      </div>
+      <div class="info-card">
+        <h3>2. Automatic &amp; Transparent</h3>
+        <p>You don't need to do anything — the system switches models instantly. The chat UI shows which model answered each question. The switch happens on rate limit errors (HTTP 429) from the Gemini API.</p>
+      </div>
+      <div class="info-card">
+        <h3>3. Combined Quota</h3>
+        <p>Total daily capacity: <strong>4,525 requests</strong> across all models. That's 25 Pro + 1,500 Flash + 3,000 Flash-Lite. All quotas reset at <strong>12:00 AM Pacific Time</strong>.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Token explainer -->
+  <div class="section">
+    <h2>Understanding Tokens</h2>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>What are Input Tokens?</h3>
+        <ul>
+          <li><strong>Your question</strong> — the text you type</li>
+          <li><strong>Retrieved context</strong> — HIPAA/GDPR chunks the system finds relevant (typically 5 chunks × ~500 tokens each)</li>
+          <li><strong>System prompt</strong> — instructions that tell the model to be a compliance assistant</li>
+          <li><strong>Chat history</strong> — last 3 Q&A pairs if follow-up question</li>
+        </ul>
+        <p style="margin-top:8px"><strong>Typical question: ~2,500-4,000 input tokens</strong></p>
+      </div>
+      <div class="info-card">
+        <h3>What are Output Tokens?</h3>
+        <ul>
+          <li>The AI's response text — everything it generates</li>
+          <li>Longer answers = more output tokens</li>
+          <li>Each response is capped at <strong>65,536 tokens</strong> (~50K words) — more than enough</li>
+          <li><strong>No daily output cap</strong> on the free tier — only input tokens and requests are limited</li>
+        </ul>
+        <p style="margin-top:8px"><strong>Typical answer: ~200-800 output tokens</strong></p>
+      </div>
+      <div class="info-card">
+        <h3>How Tokens are Counted</h3>
+        <ul>
+          <li>Roughly <strong>1 token ≈ 4 characters</strong> in English</li>
+          <li>100 words ≈ ~75 tokens</li>
+          <li>A full page of text ≈ ~500-700 tokens</li>
+          <li>Our tracker estimates tokens locally (not billed counts)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- What limits matter -->
+  <div class="section">
+    <h2>Which Limits Actually Matter?</h2>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>Requests Per Day (RPD) — Primary Limit</h3>
+        <p>This is the main constraint. Gemini 2.5 Pro gives you 25 questions/day for free, Flash gives 1,500, and Lite gives 3,000. Our fallback system means you get <strong>4,525 total</strong>.</p>
+      </div>
+      <div class="info-card">
+        <h3>Requests Per Minute (RPM) — Burst Limit</h3>
+        <p>Prevents too many rapid requests. Pro allows 5/min, Flash 15/min, Lite 30/min. Usually not an issue for manual chat use.</p>
+      </div>
+      <div class="info-card">
+        <h3>Input Tokens Per Day (TPD) — Rarely Hit</h3>
+        <p>Pro: 1M/day, Flash: 1.5M/day, Lite: 1.5M/day. At ~3K tokens per question, you'd need 333+ questions on Pro to hit this. RPD is always exhausted first.</p>
+      </div>
+      <div class="info-card">
+        <h3>Output Tokens — No Daily Limit</h3>
+        <p>The free tier does <strong>not</strong> have a daily output token cap. Each response can be up to 65K tokens. You'll never hit an output limit in normal use.</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const API_BASE = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1"
+      ? "http://127.0.0.1:8000"
+      : "/api";
+
+    async function fetchStatus() {
+      try {
+        const [usageRes] = await Promise.all([fetch(`${API_BASE}/usage`)]);
+        const usage = await usageRes.json();
+        document.getElementById("activeModel").textContent = usage.active_model;
+        document.getElementById("reqsToday").textContent = usage.summary.total_requests;
+        document.getElementById("resetsIn").textContent = usage.resets_in || "--";
+      } catch { /* offline */ }
+    }
+
+    fetchStatus();
+    setInterval(fetchStatus, 30000);
+  </script>
+</body>
+</html>

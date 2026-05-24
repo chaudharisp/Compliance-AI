@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Usage Dashboard — Compliance Policy AI</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --surface-hover: #22263a;
+      --border: #2a2e3f;
+      --text: #e4e6ed;
+      --text-muted: #8b8fa3;
+      --primary: #6c63ff;
+      --accent-green: #34d399;
+      --accent-yellow: #fbbf24;
+      --accent-red: #f87171;
+      --accent-blue: #60a5fa;
+      --radius: 12px;
+      --radius-sm: 8px;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+      padding: 24px;
+    }
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 32px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .header h1 {
+      font-size: 1.5rem;
+      background: linear-gradient(135deg, var(--primary), var(--accent-blue));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.85rem;
+      color: var(--primary);
+      padding: 6px 14px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      transition: background 0.2s;
+    }
+    .back-link:hover { background: var(--surface); text-decoration: none; }
+
+    /* Summary Cards */
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+    .summary-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+    }
+    .summary-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+    .summary-value {
+      font-size: 1.75rem;
+      font-weight: 700;
+    }
+    .summary-sub {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+    .text-green { color: var(--accent-green); }
+    .text-yellow { color: var(--accent-yellow); }
+    .text-red { color: var(--accent-red); }
+    .text-blue { color: var(--accent-blue); }
+    .text-muted { color: var(--text-muted); }
+
+    /* Chart */
+    .chart-container {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+      position: relative;
+      height: 280px;
+    }
+    .range-btn {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      color: var(--text-muted);
+      padding: 6px 16px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .range-btn:hover { border-color: var(--primary); color: var(--text); }
+    .range-btn.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+    .history-stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      margin-top: 16px;
+    }
+    .history-stat {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 14px;
+    }
+    .history-stat-label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-muted);
+      margin-bottom: 4px;
+    }
+    .history-stat-value {
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+
+    /* Section */
+    .section { margin-bottom: 32px; }
+    .section h2 {
+      font-size: 1.1rem;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* Model Cards */
+    .models-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 16px;
+    }
+    .model-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+      transition: border-color 0.2s;
+    }
+    .model-card.active { border-color: var(--primary); }
+    .model-card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+    }
+    .model-name {
+      font-size: 1rem;
+      font-weight: 700;
+    }
+    .badge {
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding: 3px 10px;
+      border-radius: 20px;
+      background: rgba(108, 99, 255, 0.15);
+      color: var(--primary);
+    }
+    .badge.active { background: rgba(52, 211, 153, 0.15); color: var(--accent-green); }
+    .badge.fallback { background: rgba(251, 191, 36, 0.15); color: var(--accent-yellow); }
+    .badge.exhausted { background: rgba(248, 113, 113, 0.15); color: var(--accent-red); }
+
+    .stat-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.85rem;
+      padding: 6px 0;
+    }
+    .stat-row + .stat-row { border-top: 1px solid var(--border); }
+    .stat-label { color: var(--text-muted); }
+    .stat-value { font-weight: 600; }
+
+    .progress-bar {
+      height: 8px;
+      background: var(--bg);
+      border-radius: 4px;
+      margin: 8px 0;
+      overflow: hidden;
+    }
+    .progress-fill {
+      height: 100%;
+      border-radius: 4px;
+      transition: width 0.5s ease;
+    }
+
+    /* Quota Table */
+    .quota-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.85rem;
+    }
+    .quota-table th {
+      text-align: left;
+      padding: 10px 12px;
+      border-bottom: 2px solid var(--border);
+      color: var(--text-muted);
+      font-weight: 600;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .quota-table td {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--border);
+    }
+    .quota-table tr:hover td { background: var(--surface-hover); }
+
+    /* Status indicator */
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 6px;
+    }
+    .status-dot.online { background: var(--accent-green); }
+    .status-dot.offline { background: var(--accent-red); }
+
+    /* Live tag */
+    .live-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.75rem;
+      color: var(--accent-green);
+      padding: 3px 10px;
+      border: 1px solid rgba(52, 211, 153, 0.3);
+      border-radius: 20px;
+    }
+    .live-tag::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--accent-green);
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+
+    .error-state {
+      text-align: center;
+      padding: 40px;
+      color: var(--text-muted);
+    }
+
+    @media (max-width: 600px) {
+      body { padding: 12px; }
+      .models-grid { grid-template-columns: 1fr; }
+      .summary-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Usage Dashboard</h1>
+    <div class="header-right">
+      <a href="about.html" class="back-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+        About
+      </a>
+      <a href="models.html" class="back-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+        Compare Models
+      </a>
+      <span class="live-tag">Auto-refresh 15s</span>
+      <span id="lastUpdate" class="text-muted">--</span>
+      <a href="index.html" class="back-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5m7-7l-7 7 7 7"/></svg>
+        Back to Chat
+      </a>
+    </div>
+  </div>
+
+  <!-- Summary -->
+  <div class="summary-grid" id="summaryGrid">
+    <div class="summary-card">
+      <div class="summary-label">Total Requests Today</div>
+      <div class="summary-value" id="totalReqs">--</div>
+      <div class="summary-sub" id="totalReqsSub">--</div>
+    </div>
+    <div class="summary-card">
+      <div class="summary-label">Remaining Quota</div>
+      <div class="summary-value text-green" id="remaining">--</div>
+      <div class="summary-sub" id="remainingSub">--</div>
+    </div>
+    <div class="summary-card">
+      <div class="summary-label">Total Tokens Used</div>
+      <div class="summary-value text-blue" id="totalTokens">--</div>
+      <div class="summary-sub" id="tokenBreakdown">--</div>
+    </div>
+    <div class="summary-card">
+      <div class="summary-label">Active Model</div>
+      <div class="summary-value" id="activeModel" style="font-size:1.1rem">--</div>
+      <div class="summary-sub" id="activeModelSub">--</div>
+    </div>
+    <div class="summary-card">
+      <div class="summary-label">Fallbacks Today</div>
+      <div class="summary-value text-yellow" id="fallbacks">0</div>
+      <div class="summary-sub">Model switches on rate limit</div>
+    </div>
+    <div class="summary-card">
+      <div class="summary-label">Errors Today</div>
+      <div class="summary-value text-red" id="errors">0</div>
+      <div class="summary-sub">Failed API requests</div>
+    </div>
+  </div>
+
+  <!-- Model Cards -->
+  <div class="section">
+    <h2>Model Breakdown</h2>
+    <div class="models-grid" id="modelsGrid"></div>
+  </div>
+
+  <!-- Usage History Chart -->
+  <div class="section">
+    <h2>Daily Usage History</h2>
+    <div style="display:flex;gap:12px;margin-bottom:16px;flex-wrap:wrap;">
+      <button class="range-btn active" data-days="7" onclick="changeRange(7)">7 days</button>
+      <button class="range-btn" data-days="14" onclick="changeRange(14)">14 days</button>
+      <button class="range-btn" data-days="30" onclick="changeRange(30)">30 days</button>
+    </div>
+    <div class="chart-container">
+      <canvas id="historyChart"></canvas>
+    </div>
+    <div class="history-stats" id="historyStats"></div>
+  </div>
+
+  <!-- Quota Table -->
+  <div class="section">
+    <h2>Free Tier Limits Reference</h2>
+    <table class="quota-table">
+      <thead>
+        <tr>
+          <th>Model</th>
+          <th>Tier</th>
+          <th>Requests/Day</th>
+          <th>Requests/Min</th>
+          <th>Tokens/Day (Input)</th>
+          <th>Tokens/Min (Input)</th>
+        </tr>
+      </thead>
+      <tbody id="quotaBody"></tbody>
+    </table>
+  </div>
+
+  <!-- System Info -->
+  <div class="section">
+    <h2>System Info</h2>
+    <div class="summary-grid" id="systemGrid">
+      <div class="summary-card">
+        <div class="summary-label">API Status</div>
+        <div class="summary-value" id="apiStatus">Checking...</div>
+      </div>
+      <div class="summary-card">
+        <div class="summary-label">Regulations Available</div>
+        <div class="summary-value" id="regulations">--</div>
+      </div>
+      <div class="summary-card">
+        <div class="summary-label">Resets In</div>
+        <div class="summary-value text-yellow" style="font-size:1.3rem" id="resetsAt">--</div>
+        <div class="summary-sub" id="currentPT">--</div>
+      </div>
+      <div class="summary-card">
+        <div class="summary-label">Last Request</div>
+        <div class="summary-value" style="font-size:1rem" id="lastReq">--</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const API_BASE = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1"
+      ? "http://127.0.0.1:8000"
+      : "/api";
+
+    // Known model specs (reference data)
+    const MODEL_SPECS = {
+      "gemini-2.5-pro": {
+        description: "Premium model — best reasoning, most capable",
+        contextWindow: "1M tokens",
+        strengths: "Complex analysis, nuanced answers, highest accuracy",
+      },
+      "gemini-2.5-flash": {
+        description: "Primary model — fast, capable, large quota",
+        contextWindow: "1M tokens",
+        strengths: "Great balance of speed and quality",
+      },
+      "gemini-2.5-flash-lite": {
+        description: "Fallback model — lightest, highest quota",
+        contextWindow: "1M tokens",
+        strengths: "Fastest response, 3K daily requests",
+      },
+    };
+
+    async function fetchData() {
+      try {
+        const [usageRes, regRes, statusRes] = await Promise.all([
+          fetch(`${API_BASE}/usage`),
+          fetch(`${API_BASE}/regulations`),
+          fetch(`${API_BASE}/status`),
+        ]);
+
+        const usage = await usageRes.json();
+        const regs = await regRes.json();
+        const status = await statusRes.json();
+
+        renderSummary(usage);
+        renderModels(usage);
+        renderQuotaTable(usage);
+        renderSystem(usage, regs, status);
+
+        document.getElementById("lastUpdate").textContent = `Updated: ${new Date().toLocaleTimeString()}`;
+      } catch (e) {
+        document.getElementById("apiStatus").textContent = "Offline";
+        document.getElementById("apiStatus").className = "summary-value text-red";
+      }
+    }
+
+    function renderSummary(usage) {
+      const s = usage.summary;
+      document.getElementById("totalReqs").textContent = s.total_requests;
+      document.getElementById("totalReqsSub").textContent = `of ${s.total_combined_quota.toLocaleString()} combined quota (${s.percent_used}% used)`;
+
+      document.getElementById("remaining").textContent = s.total_remaining.toLocaleString();
+      const remainPct = 100 - s.percent_used;
+      document.getElementById("remainingSub").textContent = `${remainPct.toFixed(1)}% of daily quota left`;
+
+      const totalTok = s.total_input_tokens + s.total_output_tokens;
+      document.getElementById("totalTokens").textContent = totalTok.toLocaleString();
+      document.getElementById("tokenBreakdown").textContent = `Input: ${s.total_input_tokens.toLocaleString()} · Output: ${s.total_output_tokens.toLocaleString()}`;
+
+      document.getElementById("activeModel").textContent = usage.active_model;
+      const tier = usage.models[usage.active_model]?.tier || "primary";
+      document.getElementById("activeModelSub").textContent = tier === "fallback" ? "Primary exhausted — using fallback" : "Primary model active";
+
+      document.getElementById("fallbacks").textContent = usage.fallbacks_today;
+      document.getElementById("errors").textContent = usage.errors_today;
+    }
+
+    function renderModels(usage) {
+      const grid = document.getElementById("modelsGrid");
+      grid.innerHTML = "";
+
+      for (const [name, info] of Object.entries(usage.models)) {
+        const spec = MODEL_SPECS[name] || {};
+        const reqPct = info.daily_requests.percent_used;
+        const tokPct = info.daily_tokens.limit > 0 ? (info.daily_tokens.input / info.daily_tokens.limit * 100).toFixed(1) : 0;
+        const isActive = info.active;
+        const isExhausted = info.exhausted || info.daily_requests.remaining === 0;
+        const isExternalExhaust = info.exhausted && info.daily_requests.used === 0;
+
+        let badgeClass = info.tier === "fallback" ? "fallback" : "";
+        let badgeText = info.tier;
+        if (isActive) { badgeClass = "active"; badgeText = "● Active"; }
+        if (isExhausted && isExternalExhaust) { badgeClass = "exhausted"; badgeText = "Quota exceeded (external)"; }
+        else if (isExhausted) { badgeClass = "exhausted"; badgeText = "Exhausted"; }
+
+        const exhaustNote = isExternalExhaust
+          ? `<div style="font-size:0.78rem;color:var(--accent-yellow);margin-bottom:10px;padding:8px;background:rgba(251,191,36,0.08);border-radius:6px">⚠ Quota used by other apps sharing this API key. Resets at midnight PT.</div>`
+          : "";
+
+        const barColor = isActive ? "var(--accent-green)" : reqPct > 80 ? "var(--accent-red)" : "var(--primary)";
+        const tokBarColor = isActive ? "var(--accent-blue)" : tokPct > 80 ? "var(--accent-red)" : "var(--accent-blue)";
+
+        const card = document.createElement("div");
+        card.className = "model-card" + (isActive ? " active" : "");
+        card.innerHTML = `
+          <div class="model-card-header">
+            <span class="model-name">${name}</span>
+            <span class="badge ${badgeClass}">${badgeText}</span>
+          </div>
+          ${spec.description ? `<div style="font-size:0.8rem;color:var(--text-muted);margin-bottom:12px">${spec.description}</div>` : ""}
+          ${exhaustNote}
+
+          <div class="stat-row"><span class="stat-label">Daily Requests</span><span class="stat-value">${info.daily_requests.used} / ${info.daily_requests.limit.toLocaleString()}</span></div>
+          <div class="progress-bar"><div class="progress-fill" style="width:${reqPct}%;background:${barColor}"></div></div>
+
+          <div class="stat-row"><span class="stat-label">Requests Remaining</span><span class="stat-value text-green">${info.daily_requests.remaining.toLocaleString()}</span></div>
+
+          <div class="stat-row"><span class="stat-label">Input Tokens</span><span class="stat-value">${info.daily_tokens.input.toLocaleString()} / ${info.daily_tokens.limit.toLocaleString()}</span></div>
+          <div class="progress-bar"><div class="progress-fill" style="width:${tokPct}%;background:${tokBarColor}"></div></div>
+
+          <div class="stat-row"><span class="stat-label">Output Tokens</span><span class="stat-value">${info.daily_tokens.output.toLocaleString()}</span></div>
+          <div class="stat-row"><span class="stat-label">Total Tokens</span><span class="stat-value text-blue">${info.daily_tokens.total.toLocaleString()}</span></div>
+
+          <div class="stat-row"><span class="stat-label">Per-Minute Usage</span><span class="stat-value">${info.per_minute.used} / ${info.per_minute.limit} (${info.per_minute.remaining} left)</span></div>
+
+          ${spec.contextWindow ? `<div class="stat-row"><span class="stat-label">Context Window</span><span class="stat-value">${spec.contextWindow}</span></div>` : ""}
+          ${spec.strengths ? `<div class="stat-row"><span class="stat-label">Best For</span><span class="stat-value" style="font-weight:400;font-size:0.8rem">${spec.strengths}</span></div>` : ""}
+        `;
+        grid.appendChild(card);
+      }
+    }
+
+    function renderQuotaTable(usage) {
+      const body = document.getElementById("quotaBody");
+      body.innerHTML = "";
+      for (const [name, info] of Object.entries(usage.models)) {
+        const row = document.createElement("tr");
+        row.innerHTML = `
+          <td><strong>${name}</strong></td>
+          <td><span class="badge ${info.tier === 'fallback' ? 'fallback' : ''}">${info.tier}</span></td>
+          <td>${info.daily_requests.limit.toLocaleString()}</td>
+          <td>${info.per_minute.limit}</td>
+          <td>${info.daily_tokens.limit.toLocaleString()}</td>
+          <td>1,000,000</td>
+        `;
+        body.appendChild(row);
+      }
+      // Total row
+      const totalRow = document.createElement("tr");
+      totalRow.style.fontWeight = "700";
+      const totalRpd = Object.values(usage.models).reduce((s, m) => s + m.daily_requests.limit, 0);
+      const totalRpm = Object.values(usage.models).reduce((s, m) => s + m.per_minute.limit, 0);
+      const totalTpd = Object.values(usage.models).reduce((s, m) => s + m.daily_tokens.limit, 0);
+      totalRow.innerHTML = `
+        <td>Combined</td>
+        <td>—</td>
+        <td>${totalRpd.toLocaleString()}</td>
+        <td>${totalRpm}</td>
+        <td>${totalTpd.toLocaleString()}</td>
+        <td>2,000,000</td>
+      `;
+      body.appendChild(totalRow);
+    }
+
+    function renderSystem(usage, regs, status) {
+      document.getElementById("apiStatus").innerHTML = `<span class="status-dot online"></span> Online`;
+      document.getElementById("apiStatus").className = "summary-value";
+      document.getElementById("regulations").textContent = regs.regulations.map(r => r.toUpperCase()).join(", ");
+      document.getElementById("resetsAt").textContent = usage.resets_in ? `${usage.resets_in}` : "--";
+      document.getElementById("currentPT").textContent = usage.current_time_pt ? `Now: ${usage.current_time_pt} · Resets 12:00 AM PT` : "";
+      document.getElementById("lastReq").textContent = usage.last_request || "No requests yet";
+    }
+
+    // Initial load + auto-refresh
+    let historyDays = 7;
+    let historyChart = null;
+
+    fetchData();
+    fetchHistory();
+    setInterval(fetchData, 15000);
+    setInterval(fetchHistory, 60000); // history refresh every 60s
+
+    function changeRange(days) {
+      historyDays = days;
+      document.querySelectorAll('.range-btn').forEach(b => b.classList.toggle('active', +b.dataset.days === days));
+      fetchHistory();
+    }
+
+    async function fetchHistory() {
+      try {
+        const res = await fetch(`${API_BASE}/usage/history?days=${historyDays}`);
+        const data = await res.json();
+        renderHistoryChart(data.history);
+        renderHistoryStats(data.history);
+      } catch (e) {}
+    }
+
+    function renderHistoryChart(history) {
+      const canvas = document.getElementById('historyChart');
+      const ctx = canvas.getContext('2d');
+
+      const labels = history.map(d => {
+        const dt = new Date(d.date + 'T00:00:00');
+        return dt.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+      });
+      const requests = history.map(d => d.total_requests);
+      const quotas = history.map(d => d.combined_quota);
+      const pctUsed = history.map(d => d.percent_used);
+
+      if (historyChart) {
+        historyChart.destroy();
+      }
+
+      historyChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels,
+          datasets: [
+            {
+              label: 'Requests',
+              data: requests,
+              backgroundColor: history.map(d => d.is_today ? 'rgba(108, 99, 255, 0.8)' : 'rgba(108, 99, 255, 0.5)'),
+              borderColor: 'rgba(108, 99, 255, 1)',
+              borderWidth: 1,
+              borderRadius: 4,
+              barPercentage: 0.6,
+            },
+            {
+              label: '% Quota Used',
+              data: pctUsed,
+              type: 'line',
+              borderColor: 'rgba(52, 211, 153, 0.9)',
+              backgroundColor: 'rgba(52, 211, 153, 0.1)',
+              pointBackgroundColor: history.map(d => d.is_today ? '#34d399' : 'rgba(52, 211, 153, 0.7)'),
+              pointRadius: history.map(d => d.is_today ? 5 : 3),
+              tension: 0.3,
+              yAxisID: 'pct',
+              fill: true,
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          interaction: { mode: 'index', intersect: false },
+          plugins: {
+            legend: {
+              labels: { color: '#8b8fa3', font: { size: 11 } }
+            },
+            tooltip: {
+              callbacks: {
+                afterBody(items) {
+                  const idx = items[0].dataIndex;
+                  const d = history[idx];
+                  const lines = [`Tokens: ${(d.total_tokens || 0).toLocaleString()}`];
+                  if (d.fallbacks) lines.push(`Fallbacks: ${d.fallbacks}`);
+                  if (d.errors) lines.push(`Errors: ${d.errors}`);
+                  if (d.is_today) lines.push('(Today — still counting)');
+                  return lines;
+                }
+              }
+            }
+          },
+          scales: {
+            x: {
+              ticks: { color: '#8b8fa3', font: { size: 10 } },
+              grid: { color: 'rgba(42, 46, 63, 0.5)' }
+            },
+            y: {
+              position: 'left',
+              title: { display: true, text: 'Requests', color: '#8b8fa3' },
+              ticks: { color: '#8b8fa3' },
+              grid: { color: 'rgba(42, 46, 63, 0.5)' },
+              beginAtZero: true,
+            },
+            pct: {
+              position: 'right',
+              title: { display: true, text: '% Quota Used', color: '#8b8fa3' },
+              ticks: { color: '#8b8fa3', callback: v => v + '%' },
+              grid: { drawOnChartArea: false },
+              beginAtZero: true,
+              max: 100,
+            }
+          }
+        }
+      });
+    }
+
+    function renderHistoryStats(history) {
+      const container = document.getElementById('historyStats');
+      if (!history.length) {
+        container.innerHTML = '<div class="history-stat"><div class="history-stat-label">No History</div><div class="history-stat-value text-muted">Start using the app to build history</div></div>';
+        return;
+      }
+
+      const totalReqs = history.reduce((s, d) => s + d.total_requests, 0);
+      const totalTokens = history.reduce((s, d) => s + (d.total_tokens || 0), 0);
+      const avgPct = (history.reduce((s, d) => s + d.percent_used, 0) / history.length).toFixed(1);
+      const maxDay = history.reduce((max, d) => d.total_requests > max.total_requests ? d : max, history[0]);
+      const daysWithFallbacks = history.filter(d => d.fallbacks > 0).length;
+
+      container.innerHTML = `
+        <div class="history-stat">
+          <div class="history-stat-label">Total Requests (${history.length}d)</div>
+          <div class="history-stat-value">${totalReqs.toLocaleString()}</div>
+        </div>
+        <div class="history-stat">
+          <div class="history-stat-label">Total Tokens (${history.length}d)</div>
+          <div class="history-stat-value text-blue">${totalTokens.toLocaleString()}</div>
+        </div>
+        <div class="history-stat">
+          <div class="history-stat-label">Avg Daily Quota Used</div>
+          <div class="history-stat-value ${+avgPct > 50 ? 'text-yellow' : 'text-green'}">${avgPct}%</div>
+        </div>
+        <div class="history-stat">
+          <div class="history-stat-label">Busiest Day</div>
+          <div class="history-stat-value">${maxDay.total_requests}</div>
+          <div style="font-size:0.75rem;color:var(--text-muted)">${maxDay.date}</div>
+        </div>
+        <div class="history-stat">
+          <div class="history-stat-label">Days With Fallbacks</div>
+          <div class="history-stat-value ${daysWithFallbacks > 0 ? 'text-yellow' : 'text-green'}">${daysWithFallbacks} / ${history.length}</div>
+        </div>
+      `;
+    }
+  </script>
+</body>
+</html>

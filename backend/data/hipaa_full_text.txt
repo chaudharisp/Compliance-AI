@@ -1,0 +1,409 @@
+HEALTH INSURANCE PORTABILITY AND ACCOUNTABILITY ACT (HIPAA)
+Summary of Key Provisions and Rules
+
+==============================================================================
+TITLE I — HEALTH CARE ACCESS, PORTABILITY, AND RENEWABILITY
+==============================================================================
+
+Section 101 — Access, Portability, and Renewability
+
+HIPAA Title I protects health insurance coverage for workers and their families when they change or lose their jobs. It limits restrictions that group health plans can place on benefits for preexisting conditions, prohibits discrimination against employees and dependents based on their health status, and guarantees renewability and availability of health coverage to certain employers and individuals.
+
+Key provisions of Title I include:
+- Limitations on preexisting condition exclusions
+- Prohibition on discrimination based on health status
+- Guaranteed availability of health insurance to small employers
+- Guaranteed renewability of health insurance coverage
+
+==============================================================================
+TITLE II — PREVENTING HEALTH CARE FRAUD AND ABUSE; ADMINISTRATIVE SIMPLIFICATION
+==============================================================================
+
+The Administrative Simplification provisions of HIPAA required the Department of Health and Human Services (HHS) to establish national standards for electronic health care transactions and national identifiers for providers, health plans, and employers. It also addressed the security and privacy of health data.
+
+==============================================================================
+THE HIPAA PRIVACY RULE (45 CFR Part 160 and Subparts A and E of Part 164)
+==============================================================================
+
+Section 1 — Purpose and Scope
+
+The HIPAA Privacy Rule establishes national standards to protect individuals' medical records and other individually identifiable health information (collectively defined as "protected health information" or PHI). The Rule requires appropriate safeguards to protect the privacy of PHI, and sets limits and conditions on the uses and disclosures that may be made of such information without an individual's authorization. The Rule also gives individuals rights over their PHI, including rights to examine and obtain a copy of their health records, to direct a covered entity to transmit to a third party an electronic copy of their PHI in an electronic health record, and to request corrections.
+
+Section 2 — Covered Entities
+
+The following types of entities are covered by HIPAA:
+(a) Health Plans: Individual and group plans that provide or pay the cost of medical care, including health insurance companies, HMOs, employer-sponsored health plans, and government programs such as Medicare, Medicaid, and military and veterans' health programs.
+(b) Health Care Providers: Every health care provider who electronically transmits health information in connection with certain transactions. These providers include doctors, clinics, psychologists, dentists, chiropractors, nursing homes, and pharmacies.
+(c) Health Care Clearinghouses: Entities that process nonstandard health information they receive from another entity into a standard format, or vice versa.
+
+Section 3 — Business Associates
+
+A "business associate" is a person or organization, other than a member of a covered entity's workforce, that performs certain functions or activities on behalf of, or provides certain services to, a covered entity that involve the use or disclosure of individually identifiable health information. Business associate functions or activities include: claims processing or administration; data analysis, processing, or administration; utilization review; quality assurance; billing; benefit management; practice management; and repricing.
+
+A covered entity may disclose PHI to a business associate and may allow a business associate to create, receive, maintain, or transmit PHI on its behalf, only if the covered entity obtains satisfactory assurance that the business associate will appropriately safeguard the information through a written contract or other arrangement (a "Business Associate Agreement" or BAA).
+
+Section 4 — Protected Health Information (PHI)
+
+Protected Health Information (PHI) is individually identifiable health information that is transmitted or maintained in any form or medium (electronic, paper, or oral). PHI includes information that:
+(a) Is created or received by a health care provider, health plan, employer, or health care clearinghouse; and
+(b) Relates to the past, present, or future physical or mental health or condition of an individual; the provision of health care to an individual; or the past, present, or future payment for the provision of health care to an individual; and
+(c) Identifies the individual or for which there is a reasonable basis to believe it can be used to identify the individual.
+
+The 18 HIPAA Identifiers are:
+1. Names
+2. Geographic data smaller than a state
+3. Dates (except year) related to an individual (birth date, admission date, discharge date, death date, and exact age if over 89)
+4. Telephone numbers
+5. Fax numbers
+6. Email addresses
+7. Social Security numbers
+8. Medical record numbers
+9. Health plan beneficiary numbers
+10. Account numbers
+11. Certificate/license numbers
+12. Vehicle identifiers and serial numbers including license plates
+13. Device identifiers and serial numbers
+14. Web URLs
+15. Internet protocol (IP) addresses
+16. Biometric identifiers (finger and voice prints)
+17. Full-face photographs and comparable images
+18. Any other unique identifying number, characteristic, or code
+
+Section 5 — Permitted Uses and Disclosures
+
+A covered entity is permitted, but not required, to use and disclose PHI without an individual's authorization for the following purposes:
+(a) To the Individual: A covered entity may disclose PHI to the individual who is the subject of the information.
+(b) Treatment, Payment, and Health Care Operations (TPO): A covered entity may use and disclose PHI for its own treatment, payment, and health care operations activities.
+(c) Opportunity to Agree or Object: A covered entity may share PHI in a facility directory or with family/friends involved in care, if the individual is informed in advance and given the opportunity to agree, prohibit, or restrict the disclosure.
+(d) Incident to an Otherwise Permitted Use and Disclosure: A covered entity may use or disclose PHI incident to a use or disclosure otherwise permitted or required, provided the covered entity has complied with applicable Minimum Necessary and safeguard requirements.
+(e) Public Interest and Benefit Activities: The Privacy Rule permits use and disclosure of PHI without authorization for 12 national priority purposes including:
+   - Required by law
+   - Public health activities
+   - Victims of abuse, neglect, or domestic violence
+   - Health oversight activities
+   - Judicial and administrative proceedings
+   - Law enforcement purposes
+   - Decedents (to coroners, medical examiners, funeral directors)
+   - Cadaveric organ, eye, or tissue donation
+   - Research (with IRB or Privacy Board approval)
+   - Serious threat to health or safety
+   - Essential government functions
+   - Workers' compensation
+(f) Limited Data Set: A covered entity may use or disclose a limited data set (PHI that excludes 16 categories of direct identifiers) for purposes of research, public health, or health care operations, if the covered entity enters into a data use agreement.
+
+Section 6 — Authorized Disclosures
+
+For uses and disclosures not otherwise permitted or required, a covered entity must obtain written authorization from the individual. The authorization must contain specific elements including:
+- A description of the information to be used or disclosed
+- The name of the person or entity authorized to make the disclosure
+- The name of the person to whom the disclosure may be made
+- A description of the purpose of the disclosure
+- An expiration date or event
+- The individual's signature and date
+- If signed by a personal representative, a description of the representative's authority
+
+An authorization is required for:
+- Most uses and disclosures of psychotherapy notes
+- Uses and disclosures of PHI for marketing purposes
+- Disclosures that constitute a sale of PHI
+
+Section 7 — Minimum Necessary Standard
+
+The Privacy Rule generally requires covered entities to take reasonable steps to limit the use or disclosure of, and requests for, PHI to the minimum necessary to accomplish the intended purpose. The minimum necessary standard does not apply to:
+- Disclosures to or requests by a health care provider for treatment purposes
+- Disclosures to the individual who is the subject of the information
+- Uses or disclosures made pursuant to an individual's authorization
+- Uses or disclosures required for compliance with HIPAA Administrative Simplification Rules
+- Disclosures to HHS when required for enforcement purposes
+- Uses or disclosures required by other law
+
+Section 8 — Individual Rights Under the Privacy Rule
+
+The Privacy Rule gives individuals the following rights with respect to their PHI:
+
+(a) Right of Access: Individuals have the right to access, inspect, and obtain a copy of their PHI in a designated record set. A covered entity must act on a request for access no later than 30 days after receipt of the request (one 30-day extension is permitted). A covered entity may charge a reasonable, cost-based fee for copies.
+
+(b) Right to Amend: Individuals have the right to request that a covered entity amend their PHI in a designated record set. A covered entity must act on a request for amendment within 60 days (one 30-day extension is permitted). A covered entity may deny the request if the PHI was not created by the covered entity, is not part of the designated record set, is not available for inspection (because it is exempt from access), or is accurate and complete.
+
+(c) Right to an Accounting of Disclosures: Individuals have the right to receive an accounting of certain disclosures of their PHI made by a covered entity in the six years prior to the request. The accounting must include the date of disclosure, name and address (if known) of the entity or person who received the PHI, and a brief description of the PHI disclosed and the purpose of the disclosure.
+
+(d) Right to Request Restrictions: Individuals have the right to request that a covered entity restrict uses or disclosures of their PHI for treatment, payment, or health care operations, or restrict disclosures to persons involved in the individual's care or payment. A covered entity is not required to agree to a restriction, except that it must agree to restrict disclosures to a health plan for payment or health care operations purposes (not for treatment) if the PHI pertains solely to a health care item or service for which the individual has paid in full out of pocket.
+
+(e) Right to Request Confidential Communications: Individuals have the right to request that a covered entity communicate with them about PHI by alternative means or at alternative locations. A health plan must accommodate reasonable requests.
+
+(f) Right to a Notice of Privacy Practices: Covered entities must provide individuals with a Notice of Privacy Practices (NPP) that describes how the entity may use and disclose PHI, the individual's rights, and the entity's legal duties with respect to PHI.
+
+==============================================================================
+THE HIPAA SECURITY RULE (45 CFR Part 160 and Subparts A and C of Part 164)
+==============================================================================
+
+Section 1 — General Requirements
+
+The HIPAA Security Rule establishes national standards to protect electronic protected health information (ePHI) that is created, received, used, or maintained by a covered entity. The Security Rule requires appropriate administrative, physical, and technical safeguards to ensure the confidentiality, integrity, and availability of ePHI.
+
+The Security Rule applies to health plans, health care clearinghouses, and health care providers who transmit health information in electronic form (covered entities), as well as to business associates.
+
+Section 2 — General Principles
+
+Covered entities and business associates must:
+(a) Ensure the confidentiality, integrity, and availability of all ePHI the entity creates, receives, maintains, or transmits.
+(b) Protect against any reasonably anticipated threats or hazards to the security or integrity of ePHI.
+(c) Protect against any reasonably anticipated uses or disclosures of ePHI that are not permitted or required under the Privacy Rule.
+(d) Ensure compliance by its workforce.
+
+Section 3 — Administrative Safeguards (§ 164.308)
+
+Administrative safeguards are administrative actions, policies, and procedures to manage the selection, development, implementation, and maintenance of security measures to protect ePHI. Required administrative safeguards include:
+
+(a) Security Management Process: Implement policies and procedures to prevent, detect, contain, and correct security violations. This includes conducting a risk analysis, implementing a risk management program, applying sanctions against workforce members who violate policies, and regularly reviewing information system activity.
+
+(b) Assigned Security Responsibility: Designate a security official who is responsible for developing and implementing security policies and procedures.
+
+(c) Workforce Security: Implement policies and procedures to ensure that all members of the workforce have appropriate access to ePHI and to prevent unauthorized access. This includes authorization and supervision of workforce members, workforce clearance procedures, and termination procedures.
+
+(d) Information Access Management: Implement policies and procedures for authorizing access to ePHI, including access to a health care clearinghouse's ePHI and access based on the entity's role-based policies.
+
+(e) Security Awareness and Training: Implement a security awareness and training program for all workforce members, including training on security reminders, protection from malicious software, log-in monitoring, and password management.
+
+(f) Security Incident Procedures: Implement policies and procedures to address security incidents, including identifying, responding to, and mitigating security incidents and documenting incidents and outcomes.
+
+(g) Contingency Plan: Establish policies and procedures for responding to an emergency or other occurrence that damages systems containing ePHI. This includes a data backup plan, disaster recovery plan, emergency mode operation plan, testing and revision procedures, and applications and data criticality analysis.
+
+(h) Evaluation: Perform periodic technical and nontechnical evaluations to determine the extent to which security policies and procedures meet the requirements of the Security Rule.
+
+(i) Business Associate Contracts: Ensure that business associates comply with the Security Rule through written contracts.
+
+Section 4 — Physical Safeguards (§ 164.310)
+
+Physical safeguards are physical measures, policies, and procedures to protect electronic information systems and related buildings and equipment from natural and environmental hazards and unauthorized intrusion. Required physical safeguards include:
+
+(a) Facility Access Controls: Implement policies and procedures to limit physical access to electronic information systems and the facility or facilities in which they are housed, including contingency operations procedures, facility security plans, access control and validation procedures, and maintenance records.
+
+(b) Workstation Use: Implement policies and procedures that specify the proper functions to be performed, the manner in which those functions are to be performed, and the physical attributes of the surroundings of a specific workstation or class of workstations that can access ePHI.
+
+(c) Workstation Security: Implement physical safeguards for all workstations that access ePHI to restrict access to authorized users.
+
+(d) Device and Media Controls: Implement policies and procedures that govern the receipt and removal of hardware and electronic media that contain ePHI into and out of a facility, and the movement of these items within the facility. This includes disposal, media re-use, accountability, and data backup and storage.
+
+Section 5 — Technical Safeguards (§ 164.312)
+
+Technical safeguards are the technology and the policies and procedures for its use that protect ePHI and control access to it. Required technical safeguards include:
+
+(a) Access Control: Implement technical policies and procedures for electronic information systems that maintain ePHI to allow access only to those persons or software programs that have been granted access rights. This includes unique user identification, emergency access procedures, automatic logoff, and encryption and decryption.
+
+(b) Audit Controls: Implement hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use ePHI.
+
+(c) Integrity: Implement policies and procedures to protect ePHI from improper alteration or destruction, including electronic mechanisms to corroborate that ePHI has not been altered or destroyed.
+
+(d) Person or Entity Authentication: Implement procedures to verify that a person or entity seeking access to ePHI is the one claimed.
+
+(e) Transmission Security: Implement technical security measures to guard against unauthorized access to ePHI that is being transmitted over an electronic communications network, including integrity controls and encryption.
+
+Section 6 — Required vs. Addressable Implementation Specifications
+
+The Security Rule distinguishes between "required" and "addressable" implementation specifications:
+- Required specifications must be implemented as specified.
+- Addressable specifications require the entity to assess whether the specification is a reasonable and appropriate safeguard for the entity, considering factors such as the entity's size, complexity, capabilities, technical infrastructure, hardware and software security capabilities, security threats, and the cost of security measures. If the specification is reasonable and appropriate, the entity must implement it. If it is not, the entity must document why and implement an equivalent alternative measure if reasonable and appropriate.
+
+==============================================================================
+HIPAA BREACH NOTIFICATION RULE (45 CFR §§ 164.400-414)
+==============================================================================
+
+Section 1 — Definition of Breach
+
+A breach is the acquisition, access, use, or disclosure of PHI in a manner not permitted under the Privacy Rule which compromises the security or privacy of the PHI. A breach is presumed to have occurred unless the covered entity or business associate demonstrates that there is a low probability that the PHI has been compromised based on a risk assessment considering at least the following factors:
+
+(a) The nature and extent of the PHI involved, including the types of identifiers and the likelihood of re-identification.
+(b) The unauthorized person who used the PHI or to whom the disclosure was made.
+(c) Whether the PHI was actually acquired or viewed.
+(d) The extent to which the risk to the PHI has been mitigated.
+
+Exceptions to the definition of breach include:
+- Unintentional acquisition, access, or use of PHI by a workforce member acting in good faith and within the scope of authority
+- Inadvertent disclosure by a person authorized to access PHI to another authorized person at the same entity
+- Disclosures where the entity has a good faith belief that the unauthorized person would not reasonably be able to retain the information
+
+Section 2 — Individual Notification
+
+Following the discovery of a breach of unsecured PHI, a covered entity must notify each individual whose unsecured PHI has been, or is reasonably believed to have been, accessed, acquired, used, or disclosed as a result of the breach. The notification must be provided without unreasonable delay and no later than 60 calendar days from the discovery of the breach.
+
+The notification must include:
+(a) A brief description of what happened, including the date of the breach and the date of discovery
+(b) A description of the types of unsecured PHI involved (e.g., full name, Social Security number, date of birth, home address, account number, diagnosis, disability code)
+(c) Steps individuals should take to protect themselves from potential harm resulting from the breach
+(d) A brief description of what the covered entity is doing to investigate the breach, mitigate harm to individuals, and protect against further breaches
+(e) Contact procedures for individuals to ask questions or receive additional information, including a toll-free telephone number, email address, website, or postal address
+
+Section 3 — Notification to the Secretary of HHS
+
+If a breach of unsecured PHI affects 500 or more individuals, the covered entity must notify the Secretary of HHS without unreasonable delay and no later than 60 days following the discovery of the breach.
+
+If a breach affects fewer than 500 individuals, the covered entity may notify the Secretary of such breaches on an annual basis. Reports must be filed no later than 60 days after the end of the calendar year in which the breaches were discovered.
+
+Section 4 — Notification to the Media
+
+If a breach of unsecured PHI affects more than 500 residents of a state or jurisdiction, the covered entity must notify prominent media outlets serving the state or jurisdiction without unreasonable delay and no later than 60 days following the discovery of the breach.
+
+Section 5 — Notification by Business Associates
+
+A business associate must notify the covered entity of a breach of unsecured PHI without unreasonable delay and no later than 60 days from the discovery of the breach.
+
+Section 6 — Unsecured PHI
+
+Unsecured PHI is PHI that is not rendered unusable, unreadable, or indecipherable to unauthorized persons through the use of a technology or methodology specified by HHS guidance. HHS has identified encryption and destruction as the two methods that render PHI unusable, unreadable, or indecipherable.
+
+==============================================================================
+HIPAA ENFORCEMENT RULE (45 CFR Part 160, Subparts C, D, and E)
+==============================================================================
+
+Section 1 — Penalties for Non-Compliance
+
+The HITECH Act established four categories of HIPAA violations with increasing levels of penalties:
+
+Tier 1 — Lack of Knowledge: The covered entity or business associate did not know and, by exercising reasonable diligence, would not have known that a violation occurred.
+- Penalty: $100 to $50,000 per violation
+- Annual maximum: $25,000 for identical violations (pre-HITECH) / $1,500,000 (post-HITECH)
+
+Tier 2 — Reasonable Cause: The violation was due to reasonable cause and not willful neglect.
+- Penalty: $1,000 to $50,000 per violation
+- Annual maximum: $100,000 for identical violations (pre-HITECH) / $1,500,000 (post-HITECH)
+
+Tier 3 — Willful Neglect (Corrected): The violation was due to willful neglect but was corrected within the required time period (30 days from when the entity knew or should have known of the violation).
+- Penalty: $10,000 to $50,000 per violation
+- Annual maximum: $250,000 for identical violations (pre-HITECH) / $1,500,000 (post-HITECH)
+
+Tier 4 — Willful Neglect (Not Corrected): The violation was due to willful neglect and was not corrected within 30 days.
+- Penalty: $50,000 per violation (minimum)
+- Annual maximum: $1,500,000
+
+As updated by the HITECH Act and subsequent inflation adjustments, maximum penalties can reach up to $1,919,173 per violation (2022 adjusted amounts) and $50,000 per violation minimum for Tier 4 offenses.
+
+Section 2 — Criminal Penalties
+
+A person who knowingly obtains or discloses individually identifiable health information in violation of HIPAA faces criminal penalties:
+- Tier 1: Fine up to $50,000 and/or imprisonment up to 1 year
+- Tier 2 (Under False Pretenses): Fine up to $100,000 and/or imprisonment up to 5 years
+- Tier 3 (For Personal Gain or Malicious Harm): Fine up to $250,000 and/or imprisonment up to 10 years
+
+Section 3 — Compliance and Investigation
+
+The HHS Office for Civil Rights (OCR) is responsible for enforcing the Privacy and Security Rules. OCR may:
+- Investigate complaints filed by individuals
+- Conduct compliance reviews of covered entities
+- Provide technical assistance
+- Enter into resolution agreements and corrective action plans
+- Impose civil monetary penalties
+
+Section 4 — State Attorneys General
+
+Under the HITECH Act, state attorneys general may bring civil actions on behalf of state residents for violations of the HIPAA Privacy and Security Rules.
+
+==============================================================================
+HITECH ACT — HEALTH INFORMATION TECHNOLOGY FOR ECONOMIC AND CLINICAL HEALTH ACT
+==============================================================================
+
+The HITECH Act, enacted as part of the American Recovery and Reinvestment Act (ARRA) of 2009, significantly strengthened HIPAA by:
+
+(a) Extending HIPAA requirements directly to business associates
+(b) Establishing the Breach Notification Rule
+(c) Increasing civil and criminal penalties for HIPAA violations
+(d) Prohibiting the sale of PHI without individual authorization
+(e) Restricting marketing communications
+(f) Strengthening individual rights to access ePHI
+(g) Requiring accounting of disclosures from electronic health records
+(h) Authorizing state attorneys general to enforce HIPAA
+
+==============================================================================
+THE OMNIBUS RULE (2013)
+==============================================================================
+
+The HIPAA Omnibus Rule, finalized in January 2013, implemented a number of provisions of the HITECH Act and made other modifications to the HIPAA Rules. Key provisions include:
+
+(a) Making business associates directly liable for compliance with certain HIPAA requirements
+(b) Strengthening the limitations on the use and disclosure of PHI for marketing and fundraising purposes
+(c) Prohibiting the sale of PHI without individual authorization
+(d) Expanding individuals' rights to receive electronic copies of their health information
+(e) Modifying the individual authorization form requirements
+(f) Adopting the breach notification provisions established under HITECH, including the elimination of the "harm" standard and adoption of a more objective standard
+
+==============================================================================
+HIPAA AND RESEARCH
+==============================================================================
+
+HIPAA permits covered entities to use and disclose PHI for research purposes in the following circumstances:
+
+(a) With Individual Authorization: A covered entity may use or disclose PHI for research purposes if it obtains individual authorization.
+
+(b) Without Authorization (with Waiver): A covered entity may use or disclose PHI for research without individual authorization if an Institutional Review Board (IRB) or Privacy Board approves a waiver or alteration of the authorization requirement. To approve a waiver, the IRB or Privacy Board must determine that:
+- The use or disclosure involves no more than minimal risk to the privacy of individuals
+- The research could not practicably be conducted without the waiver
+- The research could not practicably be conducted without access to the PHI
+- The privacy risks are reasonable in relation to the anticipated benefits of the research
+- An adequate plan to protect identifiers exists
+- An adequate plan to destroy identifiers at the earliest opportunity exists
+- Adequate written assurances that the PHI will not be reused or disclosed
+
+(c) De-identified Data: A covered entity may use and disclose de-identified health information for any purpose. Information is de-identified if it does not identify an individual and there is no reasonable basis to believe it can be used to identify an individual. De-identification may be achieved through:
+- Expert Determination (§ 164.514(b)(1)): A qualified statistical or scientific expert determines that the risk of identifying an individual is very small
+- Safe Harbor (§ 164.514(b)(2)): Removal of all 18 specified identifiers
+
+(d) Limited Data Set: A covered entity may use or disclose a limited data set for research purposes under a data use agreement.
+
+(e) Reviews Preparatory to Research: A covered entity may use or disclose PHI for reviews preparatory to research, provided that the researcher represents that the use or disclosure is solely to prepare a research protocol, that PHI is necessary for the research purposes, and that PHI will not be removed from the covered entity.
+
+(f) Research on Decedents' Information: A covered entity may use or disclose PHI of deceased persons for research purposes if the researcher provides documentation that the use or disclosure is sought solely for research on the PHI of decedents.
+
+==============================================================================
+HIPAA AND STATE LAW
+==============================================================================
+
+HIPAA generally preempts contrary state law. However, the Secretary of HHS may determine that a state law is not preempted if:
+(a) The state law is necessary to prevent fraud and abuse
+(b) The state law is necessary to ensure appropriate state regulation of insurance or health plans
+(c) The state law addresses controlled substances
+(d) The state law provides for the reporting of disease or injury, child abuse, birth, or death, or for the conduct of public health surveillance, investigation, or intervention
+(e) The state law requires a health plan to report, or provide access to, information for management audits, financial audits, program monitoring and evaluation, or the licensure or certification of facilities or individuals
+
+If a state law provides greater privacy protections or grants greater individual rights than HIPAA, the state law is not preempted and must be followed in addition to HIPAA.
+
+==============================================================================
+HIPAA COMPLIANCE REQUIREMENTS SUMMARY
+==============================================================================
+
+To comply with HIPAA, covered entities and business associates must:
+
+1. Conduct a thorough risk analysis to identify threats to the confidentiality, integrity, and availability of ePHI
+2. Implement appropriate administrative, physical, and technical safeguards
+3. Designate a Privacy Officer and a Security Officer
+4. Develop and implement written privacy and security policies and procedures
+5. Train all workforce members on HIPAA policies and procedures
+6. Obtain Business Associate Agreements with all business associates
+7. Provide a Notice of Privacy Practices to individuals
+8. Implement procedures to allow individuals to exercise their rights
+9. Implement breach notification procedures
+10. Document compliance efforts and maintain required records for six years
+11. Conduct periodic reviews and updates of security measures
+12. Implement sanctions for workforce members who violate policies
+
+==============================================================================
+FREQUENTLY REFERENCED HIPAA PROVISIONS
+==============================================================================
+
+§ 164.502 — Uses and disclosures of PHI: general rules
+§ 164.506 — Uses and disclosures for treatment, payment, and health care operations
+§ 164.508 — Uses and disclosures requiring authorization
+§ 164.510 — Uses and disclosures requiring an opportunity to agree or object
+§ 164.512 — Uses and disclosures for which authorization or opportunity to object is not required
+§ 164.514 — De-identification of PHI
+§ 164.520 — Notice of privacy practices
+§ 164.522 — Rights to request privacy protections
+§ 164.524 — Access of individuals to PHI
+§ 164.526 — Amendment of PHI
+§ 164.528 — Accounting of disclosures
+§ 164.530 — Administrative requirements
+§ 164.308 — Administrative safeguards
+§ 164.310 — Physical safeguards
+§ 164.312 — Technical safeguards
+§ 164.314 — Organizational requirements
+§ 164.316 — Policies and procedures and documentation requirements
+§ 164.400-414 — Breach notification requirements

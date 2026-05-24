@@ -1,0 +1,11 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+.git/
+.github/
+tests/
+storage/usage_stats.json
+storage/usage_history.json
+*.md

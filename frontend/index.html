@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Compliance Policy AI</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <h2>Compliance AI</h2>
+      <div class="regulation-selector">
+        <label for="regulationSelect">Regulation</label>
+        <select id="regulationSelect">
+          <option value="hipaa" selected>HIPAA</option>
+          <option value="gdpr">GDPR</option>
+        </select>
+      </div>
+      <button class="new-chat-btn" id="newChatBtn" title="New chat">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        New Chat
+      </button>
+    </div>
+    <div class="sidebar-chats" id="chatList"></div>
+    <div class="sidebar-footer">
+      <div class="sidebar-status">
+        <span class="status-dot active" id="statusDot"></span>
+        <span id="sidebarModel">Loading...</span>
+      </div>
+      <a href="about.html" class="usage-toggle-btn" target="_blank">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+        About This Project
+      </a>
+      <a href="dashboard.html" class="usage-toggle-btn" id="usageToggle" target="_blank">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+        Usage Dashboard
+      </a>
+      <button class="sidebar-danger-btn" id="clearAllBtn">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6m3 0V4a2 2 0 012-2h4a2 2 0 012 2v2"/></svg>
+        Clear All Chats
+      </button>
+    </div>
+  </aside>
+
+  <!-- Mobile sidebar toggle -->
+  <button class="sidebar-toggle" id="sidebarToggle">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+
+  <!-- Main Chat Area -->
+  <main class="chat-main" id="chatMain">
+    <!-- Top Bar -->
+    <header class="top-bar">
+      <div class="top-bar-left">
+        <span class="badge" id="modelTier"></span>
+        <span class="top-bar-model" id="activeModel">--</span>
+      </div>
+      <div class="top-bar-right">
+        <span id="quotaText" class="quota-label">--</span>
+        <div class="quota-bar"><div class="quota-fill" id="quotaFill" style="width:0%"></div></div>
+      </div>
+    </header>
+
+    <!-- Chat Messages -->
+    <div class="chat-messages" id="chatMessages">
+      <div class="welcome" id="welcomeScreen">
+        <div class="welcome-icon">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.5"><path d="M9 12h.01M15 12h.01M12 2a10 10 0 110 20 10 10 0 010-20z"/><path d="M8 15s1.5 2 4 2 4-2 4-2"/></svg>
+        </div>
+        <h1>Compliance &amp; Regulatory Policy Assistant</h1>
+        <p>Ask questions about HIPAA and GDPR and get instant, cited answers from official regulatory documents.</p>
+        <div class="sample-questions">
+          <button class="sample-btn" data-q="What is Protected Health Information (PHI)?">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+            What is PHI?
+          </button>
+          <button class="sample-btn" data-q="What are the HIPAA breach notification requirements?">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+            Breach notification
+          </button>
+          <button class="sample-btn" data-q="What are the HIPAA Security Rule safeguards?">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+            Security safeguards
+          </button>
+          <button class="sample-btn" data-q="What are the penalties for HIPAA violations?">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+            HIPAA penalties
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Input Area -->
+    <div class="chat-input-area">
+      <form id="askForm" autocomplete="off">
+        <div class="chat-input-wrap">
+          <textarea id="questionInput" placeholder="Ask about HIPAA or GDPR compliance..." rows="1" required></textarea>
+          <button type="submit" id="submitBtn" title="Send">
+            <svg class="send-icon" id="sendIcon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+            <span class="btn-loader hidden" id="btnLoader"></span>
+          </button>
+        </div>
+      </form>
+      <div class="input-footer">Powered by HIPAA &amp; GDPR regulatory documents · Answers may not constitute legal advice</div>
+    </div>
+  </main>
+
+  <!-- Usage Modal -->
+  <div class="modal-overlay hidden" id="usageModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h2>Usage Dashboard</h2>
+        <button class="modal-close" id="usageClose">&times;</button>
+      </div>
+      <div class="usage-grid">
+        <div class="usage-card"><div class="usage-label">Requests Today</div><div class="usage-value" id="totalRequests">0</div></div>
+        <div class="usage-card"><div class="usage-label">Remaining</div><div class="usage-value" id="totalRemaining">--</div></div>
+        <div class="usage-card"><div class="usage-label">Errors</div><div class="usage-value" id="totalErrors">0</div></div>
+        <div class="usage-card"><div class="usage-label">Fallbacks</div><div class="usage-value" id="totalFallbacks">0</div></div>
+      </div>
+      <h3>Per-Model Breakdown</h3>
+      <div class="models-grid" id="modelsGrid"></div>
+    </div>
+  </div>
+
+  <div class="error-banner hidden" id="errorBanner">
+    <span id="errorText"></span>
+    <button class="error-close" id="errorClose">&times;</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
