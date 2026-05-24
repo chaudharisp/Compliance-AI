@@ -1,0 +1,249 @@
+FEDERAL HIGHWAY ADMINISTRATION (FHWA) / DEPARTMENT OF TRANSPORTATION (DOT)
+WORK ZONE SAFETY AND MOBILITY REGULATIONS
+Title 23, Code of Federal Regulations, Part 630, Subparts J and K
+Source: https://www.ecfr.gov/current/title-23/chapter-I/subchapter-G/part-630
+
+================================================================================
+Subpart J — Work Zone Safety and Mobility
+================================================================================
+
+Source: 89 FR 87293, Nov. 1, 2024
+
+================================================================================
+§ 630.1002 Purpose
+================================================================================
+
+Work zones directly impact the safety and mobility of road users and highway workers. These safety and mobility impacts are exacerbated by an aging highway infrastructure and growing congestion in many locations. Addressing these safety and mobility issues requires considerations that start early in project development and continue through project completion. Part 6 of the Manual on Uniform Traffic Control Devices for Streets and Highways (MUTCD) sets forth basic principles and prescribes standards for the design, application, installation, and maintenance of traffic control devices for highway and street construction, maintenance operation, and utility work. In addition to the provisions in the MUTCD, there are other actions that could be taken to further help mitigate the safety and mobility impacts of work zones. This subpart establishes requirements and provides guidance for systematically addressing the safety and mobility impacts of work zones, and for developing strategies to help manage these impacts on Federal-aid highway projects.
+
+================================================================================
+§ 630.1004 Definitions and Explanation of Terms
+================================================================================
+
+As used in this subpart:
+
+Agency means a State or local highway agency or authority that receives Federal-aid highway funding.
+
+Highway workers include, but are not limited to, personnel of the contractor, subcontractor, agency, utilities, and law enforcement, performing work within the right-of-way of a transportation facility.
+
+Mobility is the ability to move from place to place and is significantly dependent on the availability of transportation facilities and on system operating conditions. With specific reference to work zones, mobility pertains to moving road users efficiently through or around a work zone area with minimum delay compared to baseline travel when no work zone is present, while not compromising the safety of highway workers or road users. The commonly used performance measures for the assessment of mobility include delay, speed, travel time, and queue lengths.
+
+Safety is a representation of the level of exposure to potential hazards for users of transportation facilities and highway workers. With specific reference to work zones, safety refers to minimizing potential hazards to road users in the vicinity of a work zone and highway workers at the work zone interface with traffic. The commonly used performance measures for highway work zone safety are the number of crashes or the consequences of crashes (fatalities and injuries) at a given location or along a section of highway during a period of time.
+
+State refers to a State department of transportation.
+
+Transportation management plan (TMP) consists of strategies to manage the work zone impacts of a project. Its scope, content, and degree of detail may vary based upon the agency's work zone policy and the agency's understanding of the expected work zone impacts of the project.
+
+Work zone is an area of a highway with construction, maintenance, or utility work activities. A work zone is typically marked by one or more of the following: signs, channelizing devices, barriers, pavement markings, or work vehicles. It extends from the first warning sign or high intensity rotating, flashing, oscillating, or strobe lights on a vehicle to the END ROAD WORK sign or the last temporary traffic control (TTC) device.
+
+Work zone crash is a crash that occurs in or related to a construction, maintenance, or utility work zone, whether or not workers were actually present at the time of the crash. "Work zone-related" crashes may also include crashes involving motor vehicles slowed or stopped because of the work zone, even if the first harmful event occurred before the first warning sign.
+
+Work zone impacts refer to work zone-induced deviations from the normal range of transportation system safety and mobility. The extent of the work zone impacts may vary based on factors such as: road classification and geometrics; area type (urban, suburban, and rural); traffic and travel characteristics (volumes, speeds, vehicle mix and classification, etc.); type of work being performed; type of temporary traffic control; distance between workers and traffic; availability of escape paths for workers; time of day/night; and complexity and duration of the project.
+
+Work zone programmatic review is a data-driven, systematic, and holistic analysis that uses quantitative and qualitative data from different sources to assess the safety and mobility performance of work zones under a State's jurisdiction in order to identify improvements to that agency's work zone processes and procedures.
+
+================================================================================
+§ 630.1006 Work Zone Safety and Mobility Policy
+================================================================================
+
+(a) Each State shall implement a policy for the systematic consideration and management of work zone impacts on all Federal-aid highway projects. This policy shall address work zone impacts throughout the various stages of the project development and implementation process. This policy may take the form of processes, procedures, or guidance, and may vary based on the characteristics and expected work zone impacts of individual projects or classes of projects.
+
+(b) At a minimum, the policy shall identify safety and mobility performance measures that will be used to manage work zone performance. Examples of such performance measures include number of fatal and injury crashes occurring in a work zone, percent of projects that exceed a preestablished crash rate in the work zone, number of highway worker fatalities and injuries experienced, highway worker fatality and injury rate per hours worked, percent of projects that experience queues above a predefined threshold, and percent of time when speeds in a work zone drop below a predefined threshold.
+
+(c) The States should institute this policy using a multi-disciplinary team and in cooperation with the Federal Highway Administration (FHWA). The States are encouraged to implement this policy for non-Federal-aid projects as well.
+
+================================================================================
+§ 630.1008 State-level Processes and Procedures
+================================================================================
+
+(a) General. This section consists of State-level processes and procedures for States to implement and sustain their respective work zone safety and mobility policies.
+
+(b) Work zone assessment and management procedures. States shall develop and implement systematic procedures to assess likely work zone impacts to all highway workers and anticipated road users in project development and to manage safety and mobility impacts occurring during project implementation.
+
+(c) Work zone data. States shall use field observations, available work zone crash data, available safety surrogate data, available operational information, and available exposure data to monitor and manage work zone impacts for specific projects during implementation and to perform its work zone programmatic reviews. Examples of crash data include fatalities, injuries, and crashes; examples of safety surrogate data include speed differentials, hard braking, and other data from connected and autonomous vehicles; examples of available operational information include speeds, travel times, queue length, and duration; and examples of available exposure data include number of projects, number and length of lane closures, and vehicle-miles traveled through work zones.
+
+(d) Training. States shall require that personnel involved in the development, design, implementation, operation, inspection, and enforcement of work-zone-related transportation management and traffic control be trained, appropriate to the job decisions each individual is required to make. States shall require periodic training updates that reflect changing industry practices and State processes and procedures.
+
+(e) Work zone programmatic review. In order to assess the effectiveness of work zone safety and mobility processes and procedures, States shall perform a work zone programmatic review every 5 years and share that review with FHWA by the end of the 5-year review period.
+
+(1) The work zone programmatic review shall include a data-driven assessment of the safety and mobility performance of the State's work zones. At a minimum, this review shall include a representative sample of the State's significant work zones over the 5-year period being reviewed.
+
+(2) Each programmatic review shall include an assessment of the work zone safety and mobility performance occurring since the last review was performed, systematic identification and assessment of the States' work zone management processes and procedures to be improved, action items to be taken to achieve improvement, State divisions or offices responsible for implementing the actions, and estimated timeline for implementation.
+
+(3) States shall use available crash data, available safety surrogate data, available operational data, and the performance measures specified in their work zone policy to conduct the assessment.
+
+(4) The work zone programmatic review shall include examination of efforts across State divisions or offices affecting work zone safety and mobility management, including but not limited to: project planning, project design, project implementation, maintenance activities, transportation operations and management, permitting, training, and public information and outreach.
+
+================================================================================
+§ 630.1010 Significant Projects
+================================================================================
+
+(a) A significant project is one that, alone or in combination with other concurrent projects nearby, is anticipated to cause sustained work zone impacts that are greater than what is considered tolerable based on State policy and engineering judgment.
+
+(b) The State shall identify upcoming projects that are expected to be significant. This identification of significant projects should be done as early as possible in the project delivery and development process, and in cooperation with FHWA.
+
+(c) All Interstate system projects within the boundaries of a designated Transportation Management Area that require intermittent or continuous lane closures for 3 or more consecutive days shall be considered as significant projects.
+
+(d) For an Interstate system project or categories of Interstate system projects that are classified as significant but in the judgment of the State do not cause sustained work zone impacts, the State may request from FHWA an exception.
+
+(e) Non-interstate system projects with less than 3 consecutive days of intermittent or continuous lane closures do not require the transportation operations (TO) or public information and outreach (PIO) components of a TMP.
+
+================================================================================
+§ 630.1012 Project-level Procedures
+================================================================================
+
+(a) Scope. This section provides guidance and establishes procedures for States to manage the work zone impacts of individual projects.
+
+(b) Transportation Management Plan. For significant projects, the State shall develop a TMP that consists of a TTC plan and addresses both TO and PIO components. For individual projects or classes of projects that the State determines to have less than significant work zone impacts, the TMP may consist only of a TTC plan.
+
+(1) A TTC plan describes TTC measures to be used for facilitating road users through a work zone or an incident area. The TTC plan shall be consistent with the provisions under Part 6 of the MUTCD.
+
+(2) The TO component of the TMP shall include the identification of strategies that the State will use to mitigate impacts of the work zone on the operation and management of the transportation system within the work zone impact area. Typical TO strategies may include, but are not limited to, demand management, corridor/network management, safety management and enforcement, and work zone traffic management.
+
+(3) The PIO component of the TMP shall include communications strategies that seek to inform affected road users, the general public, area residences and businesses, and appropriate public entities about the project, the expected work zone impacts, and the changing conditions on the project.
+
+(4) States should develop and implement the TMP in sustained consultation with stakeholders (e.g., other transportation agencies, railroad agencies/operators, transit providers, freight movers, utility suppliers, police, fire, emergency medical services, schools, business communities, and regional transportation management centers).
+
+(c) Inclusion of TMP in Plans, Specification, and Estimates. The PS&E shall include either a TMP or provisions for contractors to develop a TMP at the most appropriate project phase as applicable to the State's chosen contracting methodology for the project.
+
+(d) Inclusion of Pay Item Provisions in Plans, Specification, and Estimates. The PS&Es shall include appropriate pay item provisions for implementing the TMP, either through method- or performance-based specifications.
+
+(e) Responsible persons. The State and the contractor shall each designate a trained person who has the primary responsibility and sufficient authority for implementing the TMP and other safety and mobility aspects of the project.
+
+================================================================================
+§ 630.1014 Implementation
+================================================================================
+
+Each State shall work in cooperation with FHWA in the implementation of its policies and procedures to improve work zone safety and mobility. At a minimum, this shall involve an FHWA review of conformance of the State's policies and procedures with this regulation and reassessment of the State's implementation of its procedures at appropriate intervals.
+
+================================================================================
+§ 630.1016 Compliance Date
+================================================================================
+
+States shall comply with all the provisions of this rule no later than December 31, 2026. The next work zone programmatic review will be due December 31, 2030.
+
+================================================================================
+Subpart K — Temporary Traffic Control Devices
+================================================================================
+
+Source: 89 FR 87296, Nov. 1, 2024
+
+================================================================================
+§ 630.1102 Purpose
+================================================================================
+
+To decrease the likelihood of highway work zone fatalities and injuries to workers and road users by establishing minimum requirements and providing guidance for the use of positive protection devices between the work space and motorized traffic; installation and maintenance of temporary traffic control devices; use of uniformed law enforcement officers during construction, utility, and maintenance operations; and by requiring contract pay items to ensure the availability of funds for these provisions. This subpart is applicable to all Federal-aid highway projects.
+
+================================================================================
+§ 630.1104 Definitions and Explanation of Terms
+================================================================================
+
+Agency means a State or local highway agency or authority that receives Federal-aid highway funding.
+
+Engineering study means the analysis and evaluation of available pertinent information, and the application of appropriate principles, provisions, and practices for the purpose of determining the choice and application of work zone positive protection devices, exposure control measures, or other traffic control measures to safely manage work zones.
+
+Exposure control measures means traffic management strategies to avoid work zone crashes involving workers and motorized traffic by eliminating or reducing traffic through the work zone, or diverting traffic away from the work space.
+
+Federal-aid highway project means highway construction, maintenance, and utility projects funded in whole or in part with Federal-aid funds.
+
+Motorized traffic means the motorized traveling public. This term does not include motorized construction or maintenance vehicles and equipment within the work space.
+
+Other traffic control measures means all strategies and temporary traffic controls other than Positive Protection Devices and Exposure Control Measures, but including uniformed law enforcement officers, used to reduce the risk of work zone crashes involving motorized traffic.
+
+Positive protection devices means devices that contain or redirect vehicles and meet applicable industry crashworthiness evaluation criteria.
+
+================================================================================
+§ 630.1106 Policy and Procedures for Work Zone Safety Management
+================================================================================
+
+(a) Each agency's policy and processes for the systematic consideration and management of work zone impacts shall include the consideration and management of road user and worker safety on Federal-aid highway projects. These processes shall address:
+- Use of Positive Protection Devices to prevent the intrusion of motorized traffic into the work space
+- Exposure Control Measures to avoid or minimize worker exposure to motorized traffic
+- Other Traffic Control Measures including uniformed law enforcement officers to minimize work zone crashes
+- Safe entry/exit of work vehicles onto/from the travel lanes
+
+(b) Agency processes should be based on consideration of standards or guidance contained in the MUTCD, as well as project characteristics and factors. The types of measures and strategies to be used are not mutually exclusive, and should be considered in combination as appropriate based on characteristics and factors such as:
+
+(1) Project scope and duration;
+(2) Anticipated operating conditions including traffic volume, vehicle mix, and speeds through the work zone;
+(3) Anticipated traffic safety impacts;
+(4) Type of work (as related to worker exposure and crash risks);
+(5) Distance between traffic and workers, and extent of worker exposure;
+(6) Escape paths available for workers to avoid a vehicle intrusion into the work space;
+(7) Time of day (e.g., night work);
+(8) Work area restrictions (including impact on worker exposure);
+(9) Consequences from/to road users resulting from roadway departure;
+(10) Potential hazard to workers and road users presented by device itself and during device placement and removal;
+(11) Geometrics that may increase crash risks (e.g., poor sight distance, sharp curves);
+(12) Access to/from work space;
+(13) Roadway classification; and
+(14) Impacts on project cost and duration.
+
+(c) Each agency, in partnership with FHWA, shall develop a policy addressing the use of uniformed law enforcement on Federal-aid highway projects.
+
+================================================================================
+§ 630.1108 Work Zone Safety Management Measures and Strategies
+================================================================================
+
+(a) Positive protection devices. At a minimum, agencies shall use positive protection devices in work zones with high anticipated operating speeds that provide workers no means of escape from motorized traffic intruding into the workspace unless an engineering study determines otherwise. Positive protection devices shall be considered in other situations such as:
+
+(1) Work zones that provide workers no means of escape from motorized traffic (e.g., tunnels, bridges, etc.);
+(2) Long-duration work zones (e.g., two weeks or more) resulting in substantial worker exposure to motorized traffic;
+(3) Projects with high anticipated operating speeds (e.g., 45 mph or greater), especially when combined with high traffic volumes;
+(4) Work operations that place workers close (e.g., within one lane width) to travel lanes open to traffic; and
+(5) Roadside hazards, such as drop-offs or unfinished bridge decks, that will remain in place overnight or longer.
+
+(b) Exposure control measures. A wide range of measures may be appropriate, such as:
+(1) Full road closures;
+(2) Ramp closures;
+(3) Median crossovers;
+(4) Full or partial detours or diversions;
+(5) Protection of work zone setup and removal operations using rolling road blocks;
+(6) Performing work at night or during off-peak periods when traffic volumes are lower; and
+(7) Accelerated construction techniques.
+
+(c) Other traffic control measures include:
+(1) Effective, credible signing;
+(2) Changeable message signs;
+(3) Arrow panels;
+(4) Warning flags and lights on signs;
+(5) Longitudinal and lateral buffer space;
+(6) Trained flaggers and spotters;
+(7) Enhanced flagger station setups or use of automated flagger assistance devices (AFADs);
+(8) Intrusion alarms;
+(9) Rumble strips;
+(10) Pace or pilot vehicle;
+(11) High-quality work zone pavement markings and removal of misleading markings;
+(12) Channelizing device spacing reduction;
+(13) Longitudinal channelizing barricades;
+(14) Work zone speed management (including changes to the regulatory speed or variable speed limits);
+(15) Law enforcement;
+(16) Speed Safety Cameras (where permitted by State/local laws);
+(17) Drone radar;
+(18) Worker and work vehicle/equipment visibility;
+(19) Worker training;
+(20) Public information and traveler information;
+(21) Temporary traffic signals;
+(22) Protection or shadow vehicles; and
+(23) Intelligent Transportation Systems (ITS) and other advanced technology solutions.
+
+(d) Uniformed law enforcement officers. The presence of a uniformed law enforcement officer and marked law enforcement vehicle in view of motorized traffic on a highway project can affect driver behavior, helping to maintain appropriate speeds and improve driver alertness through the work zone.
+
+(e) Work vehicles and equipment. The agency processes should also address safe means for work vehicles and equipment to enter and exit traffic lanes and for delivery of construction materials to the workspace.
+
+(f) Payment for traffic control. Project PS&Es shall include appropriate pay items for implementing the project TMP:
+(1) Payment for work zone traffic control shall not be incidental to the contract;
+(2) Separate pay items shall be provided for major categories of traffic control devices and safety features;
+(3) Specifications should clearly indicate how placement, movement/relocation, and maintenance of traffic control devices will be compensated;
+(4) Specifications should include provisions to require and enforce contractor compliance with contract provisions relative to implementation and maintenance of the project TMP.
+
+================================================================================
+§ 630.1110 Maintenance of Temporary Traffic Control Devices
+================================================================================
+
+To provide for the continued effectiveness of temporary traffic control devices, each agency shall develop and implement quality guidelines to help maintain the quality and adequacy of the temporary traffic control devices for the duration of the project. A level of inspection necessary to provide ongoing compliance with the quality guidelines shall be provided.
+
+================================================================================
+§ 630.1112 Compliance Date
+================================================================================
+
+States shall update their policy no later than December 31, 2025, and implement the policy no later than December 31, 2026.

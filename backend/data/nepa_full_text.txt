@@ -1,0 +1,560 @@
+NATIONAL ENVIRONMENTAL POLICY ACT (NEPA)
+42 U.S.C. §§ 4321–4347 and CEQ Implementing Regulations (40 CFR Parts 1500–1508)
+Source: https://uscode.house.gov/view.xhtml?path=/prelim@title42/chapter55
+
+================================================================================
+NEPA STATUTE — 42 U.S.C. Chapter 55
+================================================================================
+
+================================================================================
+§ 4321. Congressional Declaration of Purpose
+================================================================================
+
+The purposes of this chapter are: To declare a national policy which will encourage productive and enjoyable harmony between man and his environment; to promote efforts which will prevent or eliminate damage to the environment and biosphere and stimulate the health and welfare of man; to enrich the understanding of the ecological systems and natural resources important to the Nation; and to establish a Council on Environmental Quality.
+
+(Pub. L. 91-190, § 2, Jan. 1, 1970, 83 Stat. 852.)
+
+================================================================================
+SUBCHAPTER I — POLICIES AND GOALS
+================================================================================
+
+================================================================================
+§ 4331. Congressional Declaration of National Environmental Policy
+================================================================================
+
+(a) The Congress, recognizing the profound impact of man's activity on the interrelations of all components of the natural environment, particularly the profound influences of population growth, high-density urbanization, industrial expansion, resource exploitation, and new and expanding technological advances and recognizing further the critical importance of restoring and maintaining environmental quality to the overall welfare and development of man, declares that it is the continuing policy of the Federal Government, in cooperation with State and local governments, and other concerned public and private organizations, to use all practicable means and measures, including financial and technical assistance, in a manner calculated to foster and promote the general welfare, to create and maintain conditions under which man and nature can exist in productive harmony, and fulfill the social, economic, and other requirements of present and future generations of Americans.
+
+(b) In order to carry out the policy set forth in this chapter, it is the continuing responsibility of the Federal Government to use all practicable means, consistent with other essential considerations of national policy, to improve and coordinate Federal plans, functions, programs, and resources to the end that the Nation may —
+
+(1) fulfill the responsibilities of each generation as trustee of the environment for succeeding generations;
+
+(2) assure for all Americans safe, healthful, productive, and esthetically and culturally pleasing surroundings;
+
+(3) attain the widest range of beneficial uses of the environment without degradation, risk to health or safety, or other undesirable and unintended consequences;
+
+(4) preserve important historic, cultural, and natural aspects of our national heritage, and maintain, wherever possible, an environment which supports diversity and variety of individual choice;
+
+(5) achieve a balance between population and resource use which will permit high standards of living and a wide sharing of life's amenities; and
+
+(6) enhance the quality of renewable resources and approach the maximum attainable recycling of depletable resources.
+
+(c) The Congress recognizes that each person should enjoy a healthful environment and that each person has a responsibility to contribute to the preservation and enhancement of the environment.
+
+================================================================================
+§ 4332. Cooperation of Agencies; Reports; Availability of Information
+================================================================================
+
+The Congress authorizes and directs that, to the fullest extent possible: (1) the policies, regulations, and public laws of the United States shall be interpreted and administered in accordance with the policies set forth in this chapter, and (2) all agencies of the Federal Government shall —
+
+(A) utilize a systematic, interdisciplinary approach which will ensure the integrated use of the natural and social sciences and the environmental design arts in planning and in decisionmaking which may have an impact on man's environment;
+
+(B) identify and develop methods and procedures, in consultation with the Council on Environmental Quality established by subchapter II of this chapter, which will ensure that presently unquantified environmental amenities and values may be given appropriate consideration in decisionmaking along with economic and technical considerations;
+
+(C) consistent with the provisions of this chapter and except where compliance would be inconsistent with other statutory requirements, include in every recommendation or report on proposals for legislation and other major Federal actions significantly affecting the quality of the human environment, a detailed statement by the responsible Federal official on —
+
+(i) the reasonably foreseeable environmental effects of the proposed agency action;
+(ii) any reasonably foreseeable adverse environmental effects which cannot be avoided should the proposal be implemented;
+(iii) a reasonable range of alternatives to the proposed agency action, including an analysis of any negative environmental impacts of not implementing the proposed agency action in the case of a no action alternative, that are technically and economically feasible, and meet the purpose and need of the proposal;
+(iv) the relationship between local short-term uses of man's environment and the maintenance and enhancement of long-term productivity; and
+(v) any irreversible and irretrievable commitments of Federal resources which would be involved in the proposed agency action should it be implemented.
+
+(D) Any detailed statement required under subparagraph (C) shall be made available to the President, the Council on Environmental Quality, and the public as provided by section 552 of title 5 and shall accompany the proposal through the existing agency review processes.
+
+(E) Any detailed statement required under subparagraph (C) for a proposed agency action shall be prepared by the lead agency. A Federal agency shall be a cooperating agency if it has special expertise with respect to any environmental issue or has jurisdiction by law.
+
+(F) An environmental impact statement need not be prepared for an activity that is not a major Federal action, or for a major Federal action if an agency determines the action will not have a significant effect on the human environment.
+
+(G) study, develop, and describe appropriate alternatives to recommended courses of action in any proposal which involves unresolved conflicts concerning alternative uses of available resources;
+
+(H) consistent with the provisions of this chapter, recognize the worldwide and long-range character of environmental problems and, where consistent with the foreign policy of the United States, lend appropriate support to initiatives, resolutions, and programs designed to maximize international cooperation in anticipating and preventing a decline in the quality of mankind's world environment;
+
+(I) make available to States, counties, municipalities, institutions, and individuals, advice and information useful in restoring, maintaining, and enhancing the quality of the environment;
+
+(J) initiate and utilize ecological information in the planning and development of resource-oriented projects; and
+
+(K) assist the Council on Environmental Quality established by subchapter II of this chapter.
+
+================================================================================
+§ 4333. Conformity of Administrative Procedures to National Environmental Policy
+================================================================================
+
+All agencies of the Federal Government shall review their present statutory authority, administrative regulations, and current policies and procedures for the purpose of determining whether there are any deficiencies or inconsistencies therein which prohibit full compliance with the purposes and provisions of this chapter and shall propose to the President not later than July 1, 1971, such measures as may be necessary to bring their authority and policies into conformity with the intent, purposes, and procedures set forth in this chapter.
+
+================================================================================
+§ 4334. Other Statutory Obligations of Agencies
+================================================================================
+
+Nothing in section 4332 or 4333 of this title shall in any way affect the specific statutory obligations of any Federal agency (1) to comply with criteria or standards of environmental quality, (2) to coordinate or consult with any other Federal or State agency, or (3) to act, or refrain from acting contingent upon the recommendations or certification of any other Federal or State agency.
+
+================================================================================
+§ 4335. Efforts Supplemental to Existing Authorizations
+================================================================================
+
+The policies and goals set forth in this chapter are supplementary to those set forth in existing authorizations of Federal agencies.
+
+================================================================================
+§ 4336. Procedure for Determination of Level of Review
+================================================================================
+
+(a) Threshold Determinations — An agency is not required to prepare an environmental document with respect to a proposed agency action if —
+(1) the proposed agency action is not a final agency action within the meaning of such term in chapter 5 of title 5, United States Code;
+(2) the proposed agency action is covered by a categorical exclusion established by the agency, or another applicable categorical exclusion established by another agency under section 4336c;
+(3) the preparation of such document would clearly and fundamentally conflict with the requirements of another provision of law; or
+(4) the proposed agency action is, in whole or in part, a nondiscretionary action with respect to which such agency does not have authority to take environmental factors into consideration in determining whether to take the proposed agency action.
+
+(b) Levels of Review —
+
+(1) Environmental Impact Statement — An agency shall prepare an environmental impact statement for each proposed agency action that has a significant effect on the quality of the human environment.
+
+(2) Environmental Assessment — An agency shall prepare an environmental assessment for a proposed agency action that is not likely to have a significant effect on the quality of the human environment, or if the significance of the effect is unknown, unless the agency finds that a categorical exclusion is applicable.
+
+(3) Sources of Information — In completing an environmental assessment, an agency may use any reliable data source without conducting new scientific or technical research, unless new research is necessary to evaluate the effects of the action.
+
+================================================================================
+§ 4336a. Timely and Unified Federal Reviews
+================================================================================
+
+(a) Lead Agency —
+
+(1) Designation — If there are two or more participating Federal agencies, such agencies shall determine, by letter or memorandum, which agency shall be the lead agency based on consideration of the magnitude of the agency's involvement, project approval or disapproval authority, expertise concerning the action's environmental effects, duration of the agency's involvement, and sequence of the agency's involvement.
+
+(2) Role — The lead agency shall, as appropriate, be responsible for: managing the environmental review process, including preparation of environmental documents; providing opportunities for public participation; preparing the record of decision or finding of no significant impact; ensuring environmental review or consultation under other applicable Federal laws can be conducted concurrently.
+
+(3) Cooperating Agency — The lead agency may designate any Federal, State, Tribal, or local agency that has jurisdiction by law or special expertise to serve as a cooperating agency.
+
+(b) One Document — To the extent practicable, if a proposed agency action will require action by more than one Federal agency and the lead agency has determined that it requires preparation of an environmental document, the lead and cooperating agencies shall evaluate the proposal in a single environmental document.
+
+(c) Request for Public Comment — Each notice of intent to prepare an environmental impact statement shall include a request for public comment on alternatives or impacts and on relevant information, studies, or analyses with respect to the proposed agency action.
+
+(d) Statement of Purpose and Need — Each environmental document shall include a statement of purpose and need that briefly summarizes the underlying purpose and need for the proposed agency action.
+
+(e) Page Limits —
+(1) Environmental impact statements shall not exceed 150 pages, not including citations or appendices (300 pages for projects of extraordinary complexity).
+(2) Environmental assessments shall not exceed 75 pages, not including citations or appendices.
+
+(f) Sponsor Preparation — A lead agency shall prescribe procedures to allow a project sponsor to prepare an environmental assessment or an environmental impact statement under the supervision of the agency.
+
+(g) Deadlines —
+(1) In General — The lead agency shall complete an environmental impact statement not later than 2 years after the earlier of the date on which the lead agency issues the notice of intent for the action. An environmental assessment shall be completed not later than 1 year after the relevant date.
+
+================================================================================
+§ 4336b. Programmatic Environmental Document
+================================================================================
+
+An agency may prepare a programmatic environmental document to efficiently assess the environmental effects of a policy, program, plan, or group of related actions. A subsequent environmental document may tier to or incorporate by reference a programmatic environmental document.
+
+================================================================================
+§ 4336c. Adoption of Categorical Exclusions
+================================================================================
+
+An agency may adopt a categorical exclusion listed in another agency's NEPA procedures for a category of proposed agency actions for which the categorical exclusion was established. The agency shall —
+(1) identify the categorical exclusion listed in another agency's NEPA procedures;
+(2) consult with the agency that established the categorical exclusion;
+(3) identify to the public the categorical exclusion that the agency plans to use; and
+(4) document adoption of the categorical exclusion.
+
+================================================================================
+§ 4336e. Definitions
+================================================================================
+
+In this subchapter:
+
+(1) Categorical Exclusion — A category of actions that a Federal agency has determined normally do not individually or cumulatively have a significant effect on the quality of the human environment and for which no environmental assessment or environmental impact statement is required.
+
+(2) Cooperating Agency — A Federal, State, Tribal, or local agency that has been designated to cooperate with the lead agency.
+
+(3) Council — The Council on Environmental Quality established under subchapter II.
+
+(4) Environmental Assessment — A concise public document prepared by a Federal agency to determine whether to prepare an environmental impact statement or a finding of no significant impact.
+
+(5) Environmental Document — An environmental assessment, finding of no significant impact, notice of intent, environmental impact statement, or record of decision.
+
+(6) Environmental Impact Statement — A detailed written statement required by section 4332(2)(C).
+
+(7) Finding of No Significant Impact — A determination by a Federal agency that a proposed agency action does not require the issuance of an environmental impact statement.
+
+(10) Major Federal Action —
+(A) In General — An action that the agency carries out, funds, or approves that may have a significant effect on the quality of the human environment.
+(B) Exclusion — The term does not include non-Federal projects with minimal Federal funding or involvement, or a small Federal action such as a personnel action or judicial action.
+
+(11) Programmatic Environmental Document — An environmental impact statement or environmental assessment analyzing all or some of the environmental effects of a policy, program, plan, or group of related actions.
+
+(12) Proposal — A proposed action at a stage when an agency has a goal, is actively preparing to make a decision on one or more alternative means of accomplishing that goal, and can meaningfully evaluate its effects.
+
+================================================================================
+SUBCHAPTER II — COUNCIL ON ENVIRONMENTAL QUALITY
+================================================================================
+
+================================================================================
+§ 4342. Establishment; Membership; Chairman; Appointments
+================================================================================
+
+There is created in the Executive Office of the President a Council on Environmental Quality. The Council shall be composed of three members who shall be appointed by the President to serve at his pleasure, by and with the advice and consent of the Senate. The President shall designate one of the members of the Council to serve as Chairman. Each member shall be a person who, as a result of his training, experience, and attainments, is exceptionally well qualified to analyze and interpret environmental trends and information of all kinds; to appraise programs and activities of the Federal Government in the light of the policy set forth in subchapter I; to be conscious of and responsive to the scientific, economic, social, esthetic, and cultural needs and interests of the Nation; and to formulate and recommend national policies to promote the improvement of the quality of the environment.
+
+================================================================================
+§ 4344. Duties and Functions
+================================================================================
+
+It shall be the duty and function of the Council —
+
+(1) to assist and advise the President in the preparation of the Environmental Quality Report;
+
+(2) to gather timely and authoritative information concerning the conditions and trends in the quality of the environment both current and prospective, to analyze and interpret such information for the purpose of determining whether such conditions and trends are interfering, or are likely to interfere, with the achievement of the policy set forth in subchapter I, and to compile and submit to the President studies relating to such conditions and trends;
+
+(3) to review and appraise the various programs and activities of the Federal Government in the light of the policy set forth in subchapter I for the purpose of determining the extent to which such programs and activities are contributing to the achievement of such policy, and to make recommendations to the President with respect thereto;
+
+(4) to develop and recommend to the President national policies to foster and promote the improvement of environmental quality to meet the conservation, social, economic, health, and other requirements and goals of the Nation;
+
+(5) to conduct investigations, studies, surveys, research, and analyses relating to ecological systems and environmental quality;
+
+(6) to document and define changes in the natural environment, including the plant and animal systems, and to accumulate necessary data and other information for a continuing analysis of these changes or trends and an interpretation of their underlying causes;
+
+(7) to report at least once each year to the President on the state and condition of the environment; and
+
+(8) to make and furnish such studies, reports thereon, and recommendations with respect to matters of policy and legislation as the President may request.
+
+================================================================================
+§ 4347. Authorization of Appropriations
+================================================================================
+
+There are authorized to be appropriated to carry out the provisions of this chapter not to exceed $300,000 for fiscal year 1970, $700,000 for fiscal year 1971, and $1,000,000 for each fiscal year thereafter.
+
+================================================================================
+CEQ IMPLEMENTING REGULATIONS — 40 CFR Parts 1500–1508
+================================================================================
+
+The Council on Environmental Quality (CEQ) promulgated implementing regulations for NEPA at 40 CFR Parts 1500 through 1508. These regulations were substantially revised effective September 14, 2020 (85 FR 43304) and further amended by the Fiscal Responsibility Act of 2023 (Pub. L. 118-5). Key provisions are summarized below.
+
+================================================================================
+40 CFR Part 1500 — Purpose, Policy, and Mandate
+================================================================================
+
+§ 1500.1 Purpose and Policy
+
+The regulations in Parts 1500 through 1508 implement the policy and procedures provisions of the National Environmental Policy Act of 1969 (NEPA) (42 U.S.C. 4321 et seq.). These regulations are applicable to and binding on all Federal agencies for implementing the procedural provisions of NEPA.
+
+The NEPA process is intended to help public officials make decisions that are based on an understanding of environmental consequences, and take actions that protect, restore, and enhance the environment. The regulations ensure that environmental information is available to public officials and citizens before decisions are made and before actions are taken. The information must be of high quality because accurate scientific analysis, expert agency comments, and public scrutiny are essential to implementing NEPA.
+
+§ 1500.2 Policy
+
+Federal agencies shall to the fullest extent possible:
+(a) Interpret and administer the policies, regulations, and public laws of the United States in accordance with the policies set forth in the Act and these regulations.
+(b) Implement procedures to make the NEPA process more useful to decision-makers and the public; reduce paperwork and the accumulation of extraneous background data; and emphasize real environmental issues and alternatives.
+(c) Integrate the NEPA process with other planning and environmental review procedures required by law or by agency practice.
+(d) Encourage and facilitate public involvement in decisions that affect the quality of the human environment.
+(e) Use the NEPA process to identify and assess reasonable alternatives to proposed actions that will avoid or minimize adverse effects upon the quality of the human environment.
+
+§ 1500.3 NEPA Compliance
+
+An agency may not take an action concerning a proposal that will have effects on the quality of the human environment prior to completing the NEPA process. Judicial review of agency NEPA compliance shall be in accordance with the Administrative Procedure Act.
+
+§ 1500.4 Reducing Paperwork
+
+Agencies shall reduce excessive paperwork by using categorical exclusions, finding of no significant impacts (FONSIs), and tiering, as appropriate.
+
+§ 1500.5 Reducing Delay
+
+Agencies shall reduce delay by integrating the NEPA process into early planning, setting time limits, preparing analytical documents concurrently, and eliminating duplication with State, Tribal, and local procedures.
+
+================================================================================
+40 CFR Part 1501 — NEPA and Agency Planning
+================================================================================
+
+§ 1501.1 NEPA Thresholds
+
+An agency shall determine, under its NEPA procedures, whether a proposed action:
+(a) Requires preparation of an environmental impact statement (EIS);
+(b) Requires preparation of an environmental assessment (EA);
+(c) Is categorically excluded from the need to prepare an EIS or EA; or
+(d) Is otherwise exempt from NEPA requirements.
+
+§ 1501.3 Determine the Appropriate Level of NEPA Review
+
+If the agency determines a proposed action is not categorically excluded, the agency shall prepare an EA (unless the agency determines an EIS is warranted). Based on the EA, the agency shall either prepare an EIS or issue a finding of no significant impact (FONSI).
+
+§ 1501.4 Categorical Exclusions
+
+(a) A categorical exclusion means a category of actions that a Federal agency has determined, in its agency NEPA procedures, normally do not individually or cumulatively have a significant effect on the human environment.
+(b) If an agency determines that a categorical exclusion applies but extraordinary circumstances exist, the agency shall prepare an EA or EIS as appropriate.
+
+§ 1501.5 Environmental Assessments
+
+(a) An environmental assessment is a concise public document that serves to: briefly provide evidence and analysis for determining whether to prepare an EIS or a FONSI; aid an agency's compliance with NEPA when no EIS is necessary; and facilitate preparation of an EIS when one is necessary.
+(b) The environmental assessment shall include brief discussions of the need for the proposal, alternatives, the environmental impacts of the proposed action and alternatives, and a listing of agencies and persons consulted.
+(c) An environmental assessment shall not exceed 75 pages excluding citations and appendices.
+
+§ 1501.6 Findings of No Significant Impact
+
+(a) A FONSI shall briefly present the reasons why an action will not have a significant effect on the human environment and therefore does not require preparation of an EIS.
+(b) A FONSI shall include the EA or a summary of it.
+
+§ 1501.7 Scoping — Lead Agency Responsibilities
+
+The lead agency shall determine the scope of the environmental impact statement, including:
+(a) Determining the significant issues to be analyzed in depth;
+(b) Identifying and eliminating from detailed study the issues which are not significant or which have been covered by prior environmental review;
+(c) Identifying other environmental review and consultation requirements;
+(d) Indicating the relationship between the timing of the preparation of environmental analyses and the agency's tentative planning and decision-making schedule.
+
+§ 1501.9 Time Limits
+
+(a) Agencies shall set time limits for the environmental review process. An EIS shall be completed within 2 years, and an EA within 1 year, from the relevant start date.
+(b) The agency may set further time limits for other stages of the NEPA process.
+
+================================================================================
+40 CFR Part 1502 — Environmental Impact Statement
+================================================================================
+
+§ 1502.1 Purpose of Environmental Impact Statement
+
+The primary purpose of an environmental impact statement is to ensure agencies consider the environmental impacts of their proposed actions and reasonable alternatives prior to deciding whether, and how, to proceed. The EIS shall provide full and fair discussion of significant environmental impacts and inform decision-makers and the public of reasonable alternatives.
+
+§ 1502.2 Implementation
+
+Agencies shall not commit resources prejudicing selection of alternatives before making a final decision.
+
+§ 1502.3 Statutory Requirements for Statements
+
+Environmental impact statements shall be prepared as required by section 102(2)(C) of NEPA for major Federal actions significantly affecting the quality of the human environment.
+
+§ 1502.4 Major Federal Actions Requiring Environmental Impact Statements
+
+Major Federal actions include:
+(a) Adoption of official policy, such as rules, regulations, and interpretations;
+(b) Adoption of formal plans that guide or prescribe alternative uses of Federal resources;
+(c) Adoption of programs, such as a group of concerted actions to implement a specific policy or plan;
+(d) Approval of specific projects, such as construction or management activities.
+
+§ 1502.5 Timing
+
+An agency shall commence preparation of an EIS as close as possible to the time the agency is developing or has received a proposal so that the statement can serve practically as an input into the decision-making process.
+
+§ 1502.6 Interdisciplinary Preparation
+
+The EIS shall be prepared using an interdisciplinary approach which will ensure the integrated use of the natural and social sciences and the environmental design arts. The agency shall identify the disciplines of preparers.
+
+§ 1502.9 Draft, Final, and Supplemental Statements
+
+(a) An agency shall prepare a draft EIS, which shall be the subject of a public comment period.
+(b) After the comment period, the agency shall prepare a final EIS, responding to comments and making appropriate changes.
+(c) Agencies shall prepare supplements to either draft or final statements if the agency makes substantial changes in the proposed action relevant to environmental concerns, or there are significant new circumstances or information relevant to environmental concerns.
+
+§ 1502.10 Recommended Format — An EIS shall contain:
+(a) Cover sheet;
+(b) Summary (not exceeding 15 pages);
+(c) Table of contents;
+(d) Statement of purpose and need;
+(e) Alternatives including the proposed action;
+(f) Affected environment;
+(g) Environmental consequences;
+(h) List of preparers;
+(i) Appendices (if any).
+
+§ 1502.13 Purpose and Need
+
+The statement shall briefly specify the underlying purpose and need to which the agency is responding in proposing the alternatives including the proposed action.
+
+§ 1502.14 Alternatives Including the Proposed Action
+
+This section is the heart of the environmental impact statement. The agency shall:
+(a) Rigorously explore and objectively evaluate all reasonable alternatives;
+(b) Devote substantial treatment to each alternative considered in detail;
+(c) Include reasonable alternatives not within the jurisdiction of the lead agency;
+(d) Include the alternative of no action;
+(e) Identify the agency's preferred alternative or alternatives, if one or more exists.
+
+§ 1502.15 Affected Environment
+
+The EIS shall succinctly describe the environment of the area(s) to be affected or created by the alternatives under consideration. Data and analyses shall be commensurate with the importance of the impact.
+
+§ 1502.16 Environmental Consequences
+
+This section forms the scientific and analytic basis for the comparison of alternatives. It shall consolidate discussions of:
+(a) Direct effects and their significance;
+(b) Indirect effects and their significance;
+(c) Possible conflicts between the proposed action and the objectives of Federal, regional, State, Tribal, and local land use plans, policies, and controls;
+(d) Energy requirements and conservation potential;
+(e) Natural or depletable resource requirements;
+(f) Urban quality, historic and cultural resources, and the design of the built environment;
+(g) Means to mitigate adverse environmental impacts.
+
+§ 1502.21 Incomplete or Unavailable Information
+
+When an agency is evaluating reasonably foreseeable significant adverse effects and there is incomplete or unavailable information, the agency shall always make clear that such information is lacking.
+
+§ 1502.22 Cost-Benefit Analysis
+
+If a cost-benefit analysis relevant to the choice among environmentally different alternatives is being considered, it shall be incorporated by reference or appended to the statement.
+
+================================================================================
+40 CFR Part 1503 — Commenting on Environmental Impact Statements
+================================================================================
+
+§ 1503.1 Inviting Comments
+
+After preparing a draft EIS and before preparing a final EIS, the agency shall obtain the comments of any Federal agency that has jurisdiction by law or special expertise, appropriate State, Tribal, and local agencies, any applicant, and the public. The minimum public comment period shall be 45 days.
+
+§ 1503.3 Specificity of Comments
+
+Comments on environmental impact statements shall be as specific as possible and may address either the adequacy of the statement or the merits of the alternatives discussed.
+
+§ 1503.4 Response to Comments
+
+An agency preparing a final EIS shall assess and consider comments both individually and collectively, and shall respond by one of the following means: modifying alternatives, developing new alternatives, supplementing analyses, making factual corrections, or explaining why the comments do not warrant further response.
+
+================================================================================
+40 CFR Part 1504 — Predecision Referrals
+================================================================================
+
+§ 1504.1 Purpose
+
+This part establishes procedures for referring to the Council Federal interagency disagreements concerning proposed major Federal actions that might cause unsatisfactory environmental effects.
+
+§ 1504.2 Criteria for Referral
+
+A Federal agency may refer to the Council an action that is unsatisfactory from the standpoint of public health or welfare or environmental quality.
+
+================================================================================
+40 CFR Part 1505 — NEPA and Agency Decision-Making
+================================================================================
+
+§ 1505.2 Record of Decision
+
+At the time of its decision, each agency shall prepare a concise public record of decision. The record shall:
+(a) State what the decision was;
+(b) Identify all alternatives considered, specifying the alternative(s) considered to be environmentally preferable;
+(c) State whether all practicable means to avoid or minimize environmental harm from the alternative selected have been adopted, and if not, why they were not;
+(d) Summarize any monitoring and enforcement program adopted.
+
+§ 1505.3 Implementing the Decision
+
+Agencies may provide for monitoring to assure that their decisions are carried out. Mitigation and other conditions established in the EIS, the record of decision, or any mitigation action plan shall be implemented by the lead agency or other appropriate consenting agency.
+
+================================================================================
+40 CFR Part 1506 — Other Requirements of NEPA
+================================================================================
+
+§ 1506.1 Limitations on Actions During NEPA Process
+
+Until an agency issues a record of decision, no action concerning the proposal shall be taken which would have an adverse environmental impact or limit the choice of reasonable alternatives.
+
+§ 1506.2 Elimination of Duplication With State, Tribal, and Local Procedures
+
+Federal agencies shall cooperate with State, Tribal, and local agencies to reduce duplication between NEPA and State, Tribal, and local requirements, including joint planning processes, joint environmental documents, and concurrent reviews.
+
+§ 1506.3 Adoption
+
+An agency may adopt a Federal draft or final EIS prepared by another agency. The agency adopting the statement shall independently evaluate the statement prior to adoption. If the actions covered by the original EIS and the proposed action are substantially the same, the agency adopting the statement need not recirculate it.
+
+§ 1506.5 Agency Responsibility for Environmental Documents
+
+Agencies shall independently evaluate environmental documents prepared by contractors or project sponsors and take responsibility for their scope and content.
+
+§ 1506.6 Public Involvement
+
+Agencies shall make diligent efforts to involve the public in preparing and implementing their NEPA procedures. Agencies shall provide public notice of NEPA-related hearings, public meetings, and the availability of environmental documents.
+
+§ 1506.8 Proposals for Legislation
+
+Agencies shall prepare legislative environmental impact statements for proposals for legislation significantly affecting the quality of the human environment.
+
+§ 1506.10 Filing of Environmental Impact Statements
+
+Agencies shall file environmental impact statements with the EPA. EPA shall publish a notice of availability in the Federal Register. A minimum 45-day public comment period for draft EIS and a 30-day wait period after final EIS before the agency may make a decision on the proposed action.
+
+================================================================================
+40 CFR Part 1507 — Agency Compliance
+================================================================================
+
+§ 1507.2 Agency Capability to Comply
+
+Each agency shall be capable (in terms of personnel and other resources) of complying with the requirements of NEPA. Each agency shall identify methods and procedures for compliance.
+
+§ 1507.3 Agency NEPA Procedures
+
+Each Federal agency shall adopt procedures to supplement the CEQ regulations. These procedures shall:
+(a) Identify the agency's major decision points and relate the NEPA process to them;
+(b) Identify the typical classes of action that normally require EISs, normally require EAs but not EISs, or are categorically excluded;
+(c) Identify extraordinary circumstances in which a normally excluded action may require an EA or EIS;
+(d) Provide for public involvement.
+
+================================================================================
+40 CFR Part 1508 — Definitions
+================================================================================
+
+§ 1508.1 Definitions
+
+The following definitions apply to CEQ NEPA regulations:
+
+(a) Act or NEPA — The National Environmental Policy Act, as amended (42 U.S.C. 4321 et seq.).
+
+(b) Affecting — means will or may have an effect on.
+
+(c) Categorical exclusion — A category of actions that a Federal agency has determined, in its agency NEPA procedures, normally do not individually or cumulatively have a significant effect on the human environment.
+
+(d) Cooperating agency — Any Federal agency, other than a lead agency, that has jurisdiction by law or special expertise with respect to any environmental impact.
+
+(e) Council — The Council on Environmental Quality established by title II of NEPA.
+
+(f) Effects or impacts — Changes to the human environment from the proposed action or alternatives that are reasonably foreseeable and include direct effects, which are caused by the action and occur at the same time and place, and indirect effects, which are caused by the action and are later in time or farther removed in distance, but are still reasonably foreseeable.
+
+(g) Environmental assessment — A concise public document for which a Federal agency is responsible that briefly provides evidence and analysis for determining whether to prepare an EIS or a FONSI.
+
+(h) Environmental impact statement — A detailed written statement as required by NEPA section 102(2)(C).
+
+(i) Federal agency — All agencies of the Federal Government, not including Congress, the Judiciary, or the President.
+
+(j) Finding of no significant impact (FONSI) — A document by a Federal agency briefly presenting the reasons why an action will not have a significant effect on the human environment and therefore does not require preparation of an EIS.
+
+(k) Human environment — The natural and physical environment and the relationship of present and future generations of Americans with that environment.
+
+(l) Lead agency — The agency or agencies preparing or having taken primary responsibility for preparing the environmental impact statement.
+
+(m) Major Federal action — An action that an agency carries out, funds, or approves, that may have a significant effect on the quality of the human environment.
+
+(n) Mitigation — Includes: avoiding the impact altogether; minimizing impacts by limiting the degree or magnitude of the action; rectifying the impact by repairing, rehabilitating, or restoring the affected environment; reducing or eliminating the impact over time; and compensating for the impact by replacing or providing substitute resources or environments.
+
+(o) Notice of intent — A public notice that an EIS will be prepared and considered. The notice shall briefly describe the proposed action, possible alternatives, the agency's proposed scoping process, and contact information.
+
+(p) Proposal — exists at that stage in the development of an action when an agency has a goal and is actively preparing to make a decision on one or more alternative means of accomplishing that goal.
+
+(q) Record of decision — A concise public document that records a Federal agency's decision on a proposed action for which the agency has prepared an EIS.
+
+(r) Scope — The range of actions, alternatives, and impacts to be considered in an EIS.
+
+(s) Significantly — Requires considerations of both context and intensity. Context means that the significance of an action must be analyzed in several contexts such as society as a whole, the affected region, the affected interests, and the locality. Intensity refers to the severity of the impact.
+
+(t) Tiering — Coverage of general matters in broader EIS or EA with subsequent narrower statements or environmental analyses incorporating by reference the general discussions and concentrating on the issues specific to the statement subsequently prepared.
+
+================================================================================
+SUBCHAPTER IV — FEDERAL PERMITTING IMPROVEMENT
+42 U.S.C. §§ 4370m–4370m-12
+================================================================================
+
+The FAST Act (2015) and Infrastructure Investment and Jobs Act (2021) established the Federal Permitting Improvement Steering Council to coordinate and improve environmental reviews and authorizations for covered infrastructure projects. Key provisions:
+
+— The Council coordinates Federal agency environmental reviews for covered projects (those over $200 million requiring NEPA review).
+— The Executive Director maintains a Permitting Dashboard tracking the status of Federal environmental reviews.
+— Agencies must establish coordinated project plans with permitting timetables.
+— EIS completion target: 2 years; EA completion target: 1 year.
+— Claims seeking judicial review of authorizations must be filed within 2 years of final agency action.
+— The Environmental Review Improvement Fund supports administration of the permitting process.
+
+================================================================================
+KEY EXECUTIVE ORDERS RELATED TO NEPA
+================================================================================
+
+Executive Order 11514 — Protection and Enhancement of Environmental Quality (1970)
+Directs Federal agencies to monitor, evaluate, and control their activities to protect and enhance environmental quality, develop public participation procedures, and comply with CEQ regulations.
+
+Executive Order 11988 — Floodplain Management (1977)
+Requires agencies to avoid long- and short-term adverse impacts of occupancy and modification of floodplains. Agencies must evaluate flood hazards and consider alternatives before taking action in floodplains.
+
+Executive Order 11990 — Protection of Wetlands (1977)
+Requires agencies to minimize the destruction, loss, or degradation of wetlands and preserve their natural and beneficial values.
+
+Executive Order 12114 — Environmental Effects Abroad of Major Federal Actions (1979)
+Requires agencies to consider the environmental effects of major Federal actions on the environment outside the United States.
+
+Executive Order 13807 — Establishing Discipline and Accountability in the Environmental Review and Permitting Process for Infrastructure Projects (2017, revoked 2021)
+Set a goal of completing all Federal environmental reviews and authorization decisions for major infrastructure projects within 2 years.

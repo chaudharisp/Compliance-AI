@@ -17,6 +17,9 @@
         <select id="regulationSelect">
           <option value="hipaa" selected>HIPAA</option>
           <option value="gdpr">GDPR</option>
+          <option value="fhwa_dot">FHWA/DOT</option>
+          <option value="nepa">NEPA</option>
+          <option value="ada">ADA</option>
         </select>
       </div>
       <button class="new-chat-btn" id="newChatBtn" title="New chat">
@@ -71,7 +74,7 @@
           <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.5"><path d="M9 12h.01M15 12h.01M12 2a10 10 0 110 20 10 10 0 010-20z"/><path d="M8 15s1.5 2 4 2 4-2 4-2"/></svg>
         </div>
         <h1>Compliance &amp; Regulatory Policy Assistant</h1>
-        <p>Ask questions about HIPAA and GDPR and get instant, cited answers from official regulatory documents.</p>
+        <p>Ask questions about HIPAA, GDPR, FHWA/DOT, NEPA, and ADA and get instant, cited answers from official regulatory documents.</p>
         <div class="sample-questions">
           <button class="sample-btn" data-q="What is Protected Health Information (PHI)?">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
@@ -97,7 +100,7 @@
     <div class="chat-input-area">
       <form id="askForm" autocomplete="off">
         <div class="chat-input-wrap">
-          <textarea id="questionInput" placeholder="Ask about HIPAA or GDPR compliance..." rows="1" required></textarea>
+          <textarea id="questionInput" placeholder="Ask about HIPAA, GDPR, FHWA/DOT, NEPA, or ADA compliance..." rows="1" required></textarea>
           <button type="submit" id="submitBtn" title="Send">
             <svg class="send-icon" id="sendIcon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
             <span class="btn-loader hidden" id="btnLoader"></span>

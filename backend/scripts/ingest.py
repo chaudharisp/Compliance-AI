@@ -39,6 +39,21 @@ REGULATIONS = {
         "collection": "hipaa_docs",
         "label": "HIPAA",
     },
+    "fhwa_dot": {
+        "file": "fhwa_dot_full_text.txt",
+        "collection": "fhwa_dot_docs",
+        "label": "FHWA/DOT",
+    },
+    "nepa": {
+        "file": "nepa_full_text.txt",
+        "collection": "nepa_docs",
+        "label": "NEPA",
+    },
+    "ada": {
+        "file": "ada_full_text.txt",
+        "collection": "ada_docs",
+        "label": "ADA",
+    },
 }
 
 

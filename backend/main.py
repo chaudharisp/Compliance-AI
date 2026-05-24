@@ -29,6 +29,9 @@ TOP_K = 5
 REGULATION_COLLECTIONS = {
     "hipaa": "hipaa_docs",
     "gdpr": "compliance_docs",
+    "fhwa_dot": "fhwa_dot_docs",
+    "nepa": "nepa_docs",
+    "ada": "ada_docs",
 }
 DEFAULT_REGULATION = "hipaa"
 
