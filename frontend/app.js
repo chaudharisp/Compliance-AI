@@ -4,7 +4,7 @@
 
 const API_BASE = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1"
   ? "http://127.0.0.1:8000"
-  : "/api";
+  : "https://compliance-policy-ai-619596825255.us-central1.run.app";
 
 // === State ===
 let chats = JSON.parse(localStorage.getItem("compliance_chats") || "[]");
